@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "currencies": {
+    "usdToGems": {
+      "0.99": 30,
+      "1.99": 70,
+      "4.99": 160,
+      "9.99": 380,
+      "19.99": 950
+    },
+    "gemsToCoins": {
+      "30": 300,
+      "75": 825,
+      "140": 1570,
+      "180": 2090,
+      "380": 4720
+    },
+    "defaultGemsToCoinsRate": 10
+  },
+  "startingBalance": {
+    "coins": 500,
+    "gems": 0
+  }
+}
