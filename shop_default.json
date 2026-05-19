@@ -1,0 +1,167 @@
+﻿{
+  "version": "1.0.0",
+  "saleConfig": {
+    "enabled": true,
+    "discountPercent": 20,
+    "startTimestamp": "2026-01-01T00:00:00Z",
+    "endTimestamp": "2026-12-31T23:59:59Z",
+    "applicableCategories": ["decorations", "skins"],
+    "excludeItemIds": ["premium_skin_gold"]
+  },
+  "items": [
+    {
+    "id": "cat_hat_02",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+	"category": "decorations",
+	"currencyType": "Coins",
+	"price": 150,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": false,
+	"iconSpriteName": "001"
+  },
+    {
+    "id": "cat_hat_03",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "decorations",
+	"currencyType": "Gems",
+	"price": 250,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": false,
+	"iconSpriteName": "002"
+  },
+  {
+    "id": "premium_skin_gold",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "decorations",
+	"currencyType": "Coins",
+	"price": 100,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": true,
+	"iconSpriteName": "003"
+  },
+    {
+    "id": "cat_hat_01",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "decorations",
+	"currencyType": "Gems",
+	"price": 200,
+	"oldPrice": 400,
+	"enabled": true,
+	"isDiscounted": true,
+	"iconSpriteName": "004"
+  },
+  {
+    "id": "premium_skin_gold",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "interior",
+	"currencyType": "Coins",
+	"price": 150,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": false,
+	"iconSpriteName": "005"
+  },
+  {
+    "id": "premium_skin_gold",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "skins",
+	"currencyType": "Coins",
+	"price": 150,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": false,
+	"iconSpriteName": "006"
+  },
+  {
+    "id": "premium_skin_gold",
+	"name": {
+        "ru": "Шапка ушанка",
+        "en": "Ushanka Hat",
+        "es": "Gorro Ushanka",
+        "fr": "Chapka Oushanka"
+      },
+      "description": {
+        "ru": "Тёплая шапка",
+        "en": "Warm hat",
+        "es": "Gorro cálido",
+        "fr": "Chapka chaude"
+      },
+    "category": "sounds",
+	"currencyType": "Coins",
+	"price": 150,
+	"oldPrice": 200,
+	"enabled": true,
+	"isDiscounted": false,
+	"iconSpriteName": "007"
+  }
+  ]
+ }
