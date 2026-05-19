@@ -1,0 +1,32 @@
+﻿{
+  "version": "1.0",
+  "definitions": [
+    {
+      "id": "first_steps",
+      "name": { "ru": "Первый вход", "en": "First Steps", "es": "Primer acceso", "fr": "Premier accès" },
+      "description": { "ru": "Зайдите в игру впервые", "en": "Play for the first time", "es": "Entra al juego por primera vez", "fr": "Jouez pour la première fois" },
+      "iconName": "icon_1",
+      "conditionType": "daily_login",
+      "targetValue": 1,
+      "rewardCoins": 50
+    },
+	{
+      "id": "wet_paws",
+      "name": { "ru": "Мокрые лапки", "en": "Wet Paws", "es": "Patitas mojadas", "fr": "Pattes mouillées" },
+      "description": { "ru": "Посмотреть прогноз во время сильного дождя.", "en": "Check the forecast during a heavy rain.", "es": "Mira el tiempo durante un fuerte aguacero. (Более разговорный и живой вариант", "fr": "Consulter la météo pendant une forte pluie" },
+      "iconName": "icon_1",
+      "conditionType": "daily_login",
+      "targetValue": 1,
+      "rewardCoins": 50
+    },
+	{
+      "id": "windowsill_monarch",
+      "name": { "ru": "Король подоконника", "en": "Windowsill Monarch", "es": "El rey del alféizar", "fr": "Le roi du rebord de fenêtre" },
+      "description": { "ru": "Провести 10 часов в приложении.", "en": "Log 10 hours in the app", "es": "Pasa 10 horas en la aplicación", "fr": "Passer 10 heures sur l'application." },
+      "iconName": "icon_1",
+      "conditionType": "daily_login",
+      "targetValue": 1,
+      "rewardCoins": 50
+    }
+  ]
+}
