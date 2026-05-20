@@ -11,18 +11,6 @@
   "items": [
     {
     "id": "cat_hat_02",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
 	"category": "decorations",
 	"currencyType": "Coins",
 	"price": 150,
@@ -33,18 +21,6 @@
   },
     {
     "id": "cat_hat_03",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "decorations",
 	"currencyType": "Gems",
 	"price": 250,
@@ -55,18 +31,6 @@
   },
   {
     "id": "premium_skin_gold",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "decorations",
 	"currencyType": "Coins",
 	"price": 100,
@@ -77,18 +41,6 @@
   },
     {
     "id": "cat_hat_01",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "decorations",
 	"currencyType": "Gems",
 	"price": 200,
@@ -99,18 +51,6 @@
   },
   {
     "id": "premium_skin_gold",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "interior",
 	"currencyType": "Coins",
 	"price": 150,
@@ -121,18 +61,6 @@
   },
   {
     "id": "premium_skin_gold",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "skins",
 	"currencyType": "Coins",
 	"price": 150,
@@ -143,18 +71,6 @@
   },
   {
     "id": "premium_skin_gold",
-	"name": {
-        "ru": "Шапка ушанка",
-        "en": "Ushanka Hat",
-        "es": "Gorro Ushanka",
-        "fr": "Chapka Oushanka"
-      },
-      "description": {
-        "ru": "Тёплая шапка",
-        "en": "Warm hat",
-        "es": "Gorro cálido",
-        "fr": "Chapka chaude"
-      },
     "category": "sounds",
 	"currencyType": "Coins",
 	"price": 150,
