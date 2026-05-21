@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// version 1.0.0
+using UnityEngine;
 using System;
 using System.Threading.Tasks;
 

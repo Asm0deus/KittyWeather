@@ -1,5 +1,4 @@
-// ILocalizedText.cs
-using UnityEngine;
+// version 1.0.0
 
 /// <summary>
 /// Интерфейс для UI-компонентов, которые нужно обновлять при смене языка.

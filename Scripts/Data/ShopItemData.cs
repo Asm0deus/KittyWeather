@@ -1,3 +1,4 @@
+// version 1.0.0
 using Newtonsoft.Json;
 using System;
 using UnityEngine;
@@ -9,16 +10,6 @@ public class LocalizedStringUI
     public string en;
     public string es;
     public string fr;
-
-    //[JsonIgnore]
-    //public string Value => LocalizationManager.CurrentLanguage switch
-    //{
-    //    "ru" => ru,
-    //    "en" => en,
-    //    "es" => es,
-    //    "fr" => fr,
-    //    _ => en // fallback
-    //};
 
     // Хелпер-метод для получения значения по коду языка (если нужно)
     public string GetValueForLanguage(string langCode)
@@ -38,8 +29,6 @@ public class LocalizedStringUI
 public class ShopItemData
 {
     public string id;
-    //public LocalizedStringUI name;
-    //public LocalizedStringUI description;
     public string category;
     public string iconSpriteName;
 
@@ -52,9 +41,6 @@ public class ShopItemData
     [JsonProperty("enabled")] public bool enabled = true;
 
     [NonSerialized] public bool isPurchased;
-
-    //[JsonIgnore] public string DisplayName => name?.Value ?? "Unknown";
-    //[JsonIgnore] public string DisplayDescription => description?.Value ?? "";
 
     //[JsonIgnore]
     public int GetFinalPrice(float discountPercent = 0)

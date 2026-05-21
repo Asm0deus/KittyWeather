@@ -1,4 +1,4 @@
-// LocalizationBridge.cs
+// version 1.0.0
 using UnityEngine.Localization;
 
 /// <summary>

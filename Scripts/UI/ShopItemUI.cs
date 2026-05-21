@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// version 1.0.0
+using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Localization;
@@ -49,9 +50,6 @@ public class ShopItemUI : MonoBehaviour
         // Загружаем текущие значения сразу
         nameText.text = _nameRef.GetLocalizedString();
         descText.text = _descRef.GetLocalizedString();
-
-        //nameText.text = item.DisplayName;
-        //descText.text = item.DisplayDescription;
 
         // Передаём скидку из ShopManager при расчёте цены
         float discount = ShopManager.Instance?.CurrentSale?.enabled == true &&

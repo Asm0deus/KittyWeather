@@ -1,4 +1,4 @@
-// IAPValidator.cs
+// version 1.0.0
 using System;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -27,9 +27,6 @@ public static class IAPValidator
     {
         public bool success;
         public string message;
-        //public int grantedCoins;
-        //public int grantedGems;
-        //public string[] grantedItems;
 
         public RewardData granted;
         public string transactionId;

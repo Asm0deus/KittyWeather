@@ -1,4 +1,5 @@
-﻿using System;
+﻿// version 1.0.0
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -33,7 +34,6 @@ public class CurrencyManager : MonoBehaviour
     void OnDestroy()
     {
         EconomyConfigLoader.OnConfigLoaded -= _ => ForceRefresh();
-        //EconomyConfigLoader.OnConfigLoaded -= ApplyConfigRates;
     }
 
     // === ГЕТТЕРЫ ===
@@ -145,14 +145,4 @@ public class CurrencyManager : MonoBehaviour
             await SaveToCloud(userId, ShopManager.Instance.GetPurchasedIds());
         }
     }
-    //if (FirestoreManager.Instance == null) return;
-    //var data = await FirestoreManager.Instance.LoadAsync();
-    //if (!string.IsNullOrEmpty(data.userId))
-    //{
-    //    _balances[CurrencyType.Coins] = data.coins;
-    //    _balances[CurrencyType.Gems] = data.gems;
-    //    SaveLocal();
-    //    ForceRefresh();
-    //    Debug.Log($"[Sync] Баланс обновлён из облака: {data.coins}🐟 | {data.gems}💎");
-    //}
 }

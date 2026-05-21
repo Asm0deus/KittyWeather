@@ -1,4 +1,5 @@
-﻿using System;
+﻿// version 1.0.0
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;

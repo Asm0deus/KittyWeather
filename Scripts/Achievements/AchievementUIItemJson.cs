@@ -1,4 +1,5 @@
-﻿using System;
+﻿// version 1.0.0
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization;

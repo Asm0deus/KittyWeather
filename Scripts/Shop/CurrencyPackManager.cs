@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// version 1.0.0
+using UnityEngine;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,24 +45,7 @@ public class CurrencyPackManager : MonoBehaviour
 
     private void ApplyPacksFromConfig(EconomyConfig config)
     {
-        //if (config?.dailyBonus?.gemPacks != null)
-        //{
-        //    _activePacks.Clear();
-        //    foreach (var gp in config.dailyBonus.gemPacks)
-        //    {
-        //        _activePacks.Add(new CurrencyPack
-        //        {
-        //            id = gp.id,
-        //            displayName = $"+{gp.gemAmount} 💎",
-        //            currency = CurrencyType.Gems,
-        //            amount = gp.gemAmount,
-        //            usdPrice = gp.usdPrice
-        //        });
-        //    }
-        //    // Оставляем коины из дефолта, если их нет в конфиге
-        //    _activePacks.AddRange(testPacks.Where(p => p.currency == CurrencyType.Coins));
-        //    Debug.Log($"[PackManager] Загружено {_activePacks.Count} паков из конфига.");
-        //}
+
     }
 
     public List<CurrencyPack> GetPacks() => _activePacks;

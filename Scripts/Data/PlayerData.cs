@@ -1,3 +1,4 @@
+// version 1.0.0
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,8 +22,6 @@ public class PlayerData
         { "gems", gems },
         { "lastSyncTimestamp", lastSyncTimestamp },
         { "purchasedItems", purchasedItems ?? new List<string>() },
-        //{ "unlockedAchievements", unlockedAchievements ?? new List<string>() }
-        // achievements можно добавить отдельно, если нужно
     };
     }
 
@@ -39,8 +38,6 @@ public class PlayerData
         if (map.TryGetValue("lastSyncTimestamp", out var ts) && ts is long) data.lastSyncTimestamp = (long)ts;
         if (map.TryGetValue("purchasedItems", out var pi) && pi is List<object> pil)
             data.purchasedItems = pil.Cast<string>().ToList();
-        /*if (map.TryGetValue("unlockedAchievements", out var ua) && ua is List<object> ual)
-            data.unlockedAchievements = ual.Cast<string>().ToList();*/
 
         return data;
     }

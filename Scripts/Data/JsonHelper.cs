@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// version 1.0.0
+using UnityEngine;
 using Newtonsoft.Json; // Используем Newtonsoft для надежного парсинга
 
 public static class JsonHelper

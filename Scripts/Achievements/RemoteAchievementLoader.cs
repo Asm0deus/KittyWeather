@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿// version 1.0.0
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -48,16 +49,6 @@ public class RemoteAchievementLoader : MonoBehaviour
             }
         }
     }
-
-    //private void OnEnable()
-    //{
-    //    LocalizationManager.OnLanguageChanged += RefreshAchievementsUI;
-    //}
-
-    //private void OnDisable()
-    //{
-    //    LocalizationManager.OnLanguageChanged -= RefreshAchievementsUI;
-    //}
 
     private void RefreshAchievementsUI()
     {
@@ -142,7 +133,7 @@ public class RemoteAchievementLoader : MonoBehaviour
         }
     }
 
-    // ✅ Строим UI из данных трекера, а не из локального кэша
+    // Строим UI из данных трекера, а не из локального кэша
     void BuildUI()
     {
         if (AchievementTracker.Instance == null || !AchievementTracker.Instance.Achievements.Any())
@@ -169,7 +160,7 @@ public class RemoteAchievementLoader : MonoBehaviour
             var ui = inst.GetComponent<AchievementUIItemJson>();
             if (ui != null)
             {
-                ui.SetData(runtimeAch); // ✅ Передаём RuntimeAchievement
+                ui.SetData(runtimeAch); // Передаём RuntimeAchievement
             }
             else
             {

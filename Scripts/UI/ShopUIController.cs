@@ -1,3 +1,4 @@
+// version 1.0.0
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
@@ -54,7 +55,6 @@ public class ShopUIController : MonoBehaviour
             var instance = Instantiate(itemPrefab, contentPanel);
             // ВАЖНО: передаём вызов в единый контроллер попапов
             instance.Setup(item, (data) => PurchaseFlowController.Instance?.InitiatePurchase(data));
-            //inst.Setup(item, data => shopManager.PurchaseItem(data));
         }
     }
 }

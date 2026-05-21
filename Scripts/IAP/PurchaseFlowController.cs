@@ -1,4 +1,4 @@
-﻿// PurchaseFlowController.cs — ЕДИНЫЙ КОНТРОЛЕР: Попапы + IAP v5
+﻿// version 1.0.0
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -206,10 +206,6 @@ public class PurchaseFlowController : MonoBehaviour
 
         if (balance >= item.price)
         {
-            //SetupButtonBuyByItem(item);
-            //confirmItemNameText.text = item.DisplayDescription;
-            //confirmItemDescriptionText.text = item.DisplayDescription;
-
             // Получаем текст напрямую из таблиц Unity Localization по ID предмета
             var nameRef = new LocalizedString { TableReference = "Shop_Items", TableEntryReference = $"{item.id}.name" };
             var descRef = new LocalizedString { TableReference = "Shop_Items", TableEntryReference = $"{item.id}.desc" };
@@ -241,9 +237,6 @@ public class PurchaseFlowController : MonoBehaviour
 
             insufficientText.text = $"Вам не хватает {missing} {currName} для покупки \n {itemName}.";
             insufficientPopup.SetActive(true);
-
-            //insufficientText.text = $"Вам не хватает {missing} {currName} для покупки \n {item.name}.";
-            //insufficientPopup.SetActive(true);
         }
     }
 

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿// version 1.0.0
+using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 using System.Collections.Generic;
@@ -61,7 +62,6 @@ public class ShopManager : MonoBehaviour
 
         // Теперь EconomyConfig точно загружен, курсы доступны
         StartCoroutine(FetchData());
-        //StartCoroutine(FetchData());
     }
 
     public bool IsItemOnSale(ShopItemData item)

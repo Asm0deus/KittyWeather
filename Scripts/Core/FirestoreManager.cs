@@ -1,4 +1,5 @@
-﻿using Firebase.Firestore;
+﻿// version 1.0.0
+using Firebase.Firestore;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -82,11 +83,6 @@ public class FirestoreManager : MonoBehaviour
 
                     Debug.Log($"[Firestore] ✅ Данные найдены: {data.coins}🐟 | {data.gems}💎");
                     return data;
-
-
-                    //var data = snapshot.ConvertTo<PlayerData>();
-                    //Debug.Log($"[Firestore] ✅ Данные найдены: {data.coins}🐟 | {data.gems}💎");
-                    //return data;
                 }
 
                 Debug.Log("[Firestore] 🆕 Новый профиль. Возвращаю стартовые 500 монет.");

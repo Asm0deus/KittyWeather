@@ -1,4 +1,4 @@
-// UIManager.cs
+// version 1.0.0
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;

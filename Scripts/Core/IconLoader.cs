@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.Networking;
+﻿// version 1.0.0
+using UnityEngine;
 using System.Collections;
 using System.IO;
 

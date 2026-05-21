@@ -1,3 +1,4 @@
+// version 1.0.0
 using System;
 using Newtonsoft.Json;
 
