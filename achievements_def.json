@@ -10,7 +10,6 @@
     },
 	{
       "id": "wet_paws",
-      "name": { "ru": "Мокрые лапки", "en": "Wet Paws", "es": "Patitas mojadas", "fr": "Pattes mouillées" },
       "iconName": "icon_1",
       "conditionType": "daily_login",
       "targetValue": 1,
