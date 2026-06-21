@@ -1,26 +1,71 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "2.0.0",
   "definitions": [
     {
       "id": "first_steps",
-      "iconName": "icon_1",
+      "iconName": "001",
+      "category": "progression",
+      "isHidden": false,
       "conditionType": "daily_login",
       "targetValue": 1,
-      "rewardCoins": 50
+      "rewardCoins": 50,
+      "rewardGems": 0,
+      "prerequisites": []
     },
-	{
-      "id": "wet_paws",
-      "iconName": "icon_1",
-      "conditionType": "daily_login",
-      "targetValue": 1,
-      "rewardCoins": 50
+    {
+      "id": "shopaholic",
+      "iconName": "002",
+      "category": "shop",
+      "isHidden": false,
+      "conditionType": "shop_purchase",
+      "targetValue": 5,
+      "rewardCoins": 200,
+      "rewardGems": 10,
+      "prerequisites": ["first_steps"]
     },
-	{
-      "id": "windowsill_monarch",
-      "iconName": "icon_1",
-      "conditionType": "daily_login",
+    {
+      "id": "coin_collector",
+      "iconName": "003",
+      "category": "economy",
+      "isHidden": false,
+      "conditionType": "earn_coins",
+      "targetValue": 1000,
+      "rewardCoins": 100,
+      "rewardGems": 5,
+      "prerequisites": []
+    },
+    {
+      "id": "secret_achievement",
+      "iconName": "004",
+      "category": "secret",
+      "isHidden": true,
+      "conditionType": "iap_purchase",
       "targetValue": 1,
-      "rewardCoins": 50
+      "rewardCoins": 500,
+      "rewardGems": 50,
+      "prerequisites": []
+    },
+    {
+      "id": "gem_master",
+      "iconName": "005",
+      "category": "economy",
+      "isHidden": false,
+      "conditionType": "earn_gems",
+      "targetValue": 100,
+      "rewardCoins": 0,
+      "rewardGems": 20,
+      "prerequisites": []
+    },
+    {
+      "id": "converter",
+      "iconName": "006",
+      "category": "economy",
+      "isHidden": false,
+      "conditionType": "convert_currency",
+      "targetValue": 3,
+      "rewardCoins": 150,
+      "rewardGems": 0,
+      "prerequisites": []
     }
   ]
 }
