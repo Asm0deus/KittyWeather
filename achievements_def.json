@@ -1,7 +1,6 @@
 ﻿{
   "version": "2.2.0",
   "definitions": [
-    // === ВВОДНЫЕ ДОСТИЖЕНИЯ (general) ===
     { "id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 0, "prerequisites": [] },
     { "id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 10, "prerequisites": [] },
 
