@@ -1,5 +1,5 @@
 ﻿{
-  "version": "2.2.0",
+  "version": "2.2.1",
   "definitions": [
     { "id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 0, "prerequisites": [] },
     { "id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 10, "prerequisites": [] },
@@ -10,7 +10,7 @@
     { "id": "sunny_bunny", "iconName": "005", "category": "weather", "isHidden": false, "conditionType": "daily_sunny_check", "targetValue": 7, "rewardCoins": 150, "rewardGems": 10, "prerequisites": [] },
     { "id": "snowball", "iconName": "006", "category": "weather", "isHidden": false, "conditionType": "check_weather_extreme_cold", "targetValue": 1, "rewardCoins": 80, "rewardGems": 5, "prerequisites": [] },
     { "id": "fluffy_meteorologist", "iconName": "007", "category": "weather", "isHidden": false, "conditionType": "daily_login_streak", "targetValue": 30, "rewardCoins": 500, "rewardGems": 50, "prerequisites": [] },
-    { "id": "sea_cat", "iconName": "008", "category": "weather", "isHidden": false, "conditionType": "check_water_temp", "targetValue": 1, "rewardCoins": 40, "rewardGems": 0, "prerequisites": [] },
+    { "id": "sea_cat", "iconName": "008", "category": "weather", "isHidden": true, "conditionType": "check_water_temp", "targetValue": 1, "rewardCoins": 40, "rewardGems": 0, "prerequisites": [] },
     { "id": "whiskers_in_wind", "iconName": "009", "category": "weather", "isHidden": false, "conditionType": "check_wind_speed_high", "targetValue": 1, "rewardCoins": 60, "rewardGems": 5, "prerequisites": [] },
     { "id": "fog_catcher", "iconName": "010", "category": "weather", "isHidden": false, "conditionType": "login_low_visibility", "targetValue": 1, "rewardCoins": 70, "rewardGems": 5, "prerequisites": [] },
     { "id": "almost_levitation", "iconName": "011", "category": "weather", "isHidden": false, "conditionType": "check_pressure_high", "targetValue": 1, "rewardCoins": 80, "rewardGems": 5, "prerequisites": [] },
