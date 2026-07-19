@@ -1,83 +1,953 @@
 ﻿{
-  "version": "1.0.0",
+  "version": "1.0.2",
   "saleConfig": {
-    "enabled": true,
+    "enabled": false,
     "discountPercent": 20,
     "startTimestamp": "2026-01-01T00:00:00Z",
     "endTimestamp": "2026-12-31T23:59:59Z",
-    "applicableCategories": ["decorations", "skins"],
-    "excludeItemIds": ["premium_skin_gold"]
+    "categories": ["decorations", "skins"],
+    "excludedItems": ["premium_skin_gold"]
   },
   "items": [
     {
-    "id": "cat_hat_02",
-	"category": "decorations",
-	"currencyType": "Coins",
-	"price": 150,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": false,
-	"iconSpriteName": "001"
-  },
+      "id": "hat_h001",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h001",
+      "price": 150,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
     {
-    "id": "cat_hat_03",
-    "category": "decorations",
-	"currencyType": "Gems",
-	"price": 250,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": false,
-	"iconSpriteName": "002"
-  },
-  {
-    "id": "premium_skin_gold",
-    "category": "decorations",
-	"currencyType": "Coins",
-	"price": 100,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": true,
-	"iconSpriteName": "003"
-  },
+      "id": "hat_h003",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h003",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
     {
-    "id": "cat_hat_01",
-    "category": "decorations",
-	"currencyType": "Gems",
-	"price": 200,
-	"oldPrice": 400,
-	"enabled": true,
-	"isDiscounted": true,
-	"iconSpriteName": "004"
-  },
-  {
-    "id": "premium_skin_gold",
-    "category": "interior",
-	"currencyType": "Coins",
-	"price": 150,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": false,
-	"iconSpriteName": "005"
-  },
-  {
-    "id": "premium_skin_gold",
-    "category": "skins",
-	"currencyType": "Coins",
-	"price": 150,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": false,
-	"iconSpriteName": "006"
-  },
-  {
-    "id": "premium_skin_gold",
-    "category": "sounds",
-	"currencyType": "Coins",
-	"price": 150,
-	"oldPrice": 200,
-	"enabled": true,
-	"isDiscounted": false,
-	"iconSpriteName": "007"
-  }
+      "id": "hat_h005",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h005",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hat_h007",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h007",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h010",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h010",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "hat_h004",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h004",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hat_h012",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h012",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h014",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h014",
+      "price": 600,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "hat_h016",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h016",
+      "price": 800,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "epic"
+    },
+    {
+      "id": "hat_h002",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h002",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h006",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h006",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h008",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h008",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h009",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h009",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hat_h011",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h011",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "hat_h013",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h013",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "hat_h015",
+      "category": "accessories",
+      "subcategory": "hats",
+      "iconSpriteName": "hat_h015",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "glass_gl001",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl001",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "glass_gl003",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl003",
+      "price": 150,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "glass_gl004",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl004",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl006",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl006",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "glass_gl002",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl002",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl005",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl005",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl007",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl007",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl009",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl009",
+      "price": 600,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "glass_gl010",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl010",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl008",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl008",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "glass_gl011",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl011",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "glass_gl012",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl012",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl013",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl013",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "glass_gl014",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl014",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "glass_gl015",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl015",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "glass_gl016",
+      "category": "accessories",
+      "subcategory": "glasses",
+      "iconSpriteName": "glass_gl016",
+      "price": 700,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "epic"
+    },
+    {
+      "id": "collar_ch001",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch001",
+      "price": 100,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch002",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch002",
+      "price": 150,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch003",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch003",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "collar_ch009",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch009",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "collar_ch004",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch004",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "collar_ch005",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch005",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch006",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch006",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "collar_ch010",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch010",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "collar_ch013",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch013",
+      "price": 600,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "epic"
+    },
+    {
+      "id": "collar_ch007",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch007",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch008",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch008",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch011",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch011",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "collar_ch012",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch012",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch014",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch014",
+      "price": 550,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "collar_ch015",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch015",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "collar_ch016",
+      "category": "accessories",
+      "subcategory": "collars",
+      "iconSpriteName": "collar_ch016",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bed_lejak001",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak001",
+      "price": 100,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bed_lejak002",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak002",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak003",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak003",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bed_lejak004",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak004",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak009",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak009",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "bed_lejak005",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak005",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bed_lejak007",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak007",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak010",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak010",
+      "price": 600,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "bed_lejak014",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak014",
+      "price": 1200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "epic"
+    },
+    {
+      "id": "bed_lejak006",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak006",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak008",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak008",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak011",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak011",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bed_lejak012",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak012",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bed_lejak013",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak013",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "bed_lejak015",
+      "category": "interior",
+      "subcategory": "beds",
+      "iconSpriteName": "bed_lejak015",
+      "price": 50,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks001",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks001",
+      "price": 80,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks003",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks003",
+      "price": 120,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks004",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks004",
+      "price": 150,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks009",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks009",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bowl_miaks002",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks002",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bowl_miaks005",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks005",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "bowl_miaks010",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks010",
+      "price": 800,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "epic"
+    },
+    {
+      "id": "bowl_miaks006",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks006",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bowl_miaks007",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks007",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks008",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks008",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks011",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks011",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bowl_miaks012",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks012",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks013",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks013",
+      "price": 600,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "bowl_miaks014",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks014",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "bowl_miaks015",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks015",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "bowl_miaks016",
+      "category": "interior",
+      "subcategory": "bowls",
+      "iconSpriteName": "bowl_miaks016",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy001",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy001",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "toy_toy002",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy002",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy005",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy005",
+      "price": 150,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "toy_toy006",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy006",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "toy_toy003",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy003",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy004",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy004",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy007",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy007",
+      "price": 300,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy011",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy011",
+      "price": 500,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "toy_toy008",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy008",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy009",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy009",
+      "price": 250,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "toy_toy010",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy010",
+      "price": 200,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "toy_toy012",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy012",
+      "price": 180,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "common"
+    },
+    {
+      "id": "toy_toy013",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy013",
+      "price": 350,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    },
+    {
+      "id": "toy_toy014",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy014",
+      "price": 450,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "rare"
+    },
+    {
+      "id": "toy_toy015",
+      "category": "interior",
+      "subcategory": "toys",
+      "iconSpriteName": "toy_toy015",
+      "price": 400,
+      "oldPrice": 0,
+      "currencyType": "Coins",
+      "rarity": "uncommon"
+    }
   ]
- }
+}
