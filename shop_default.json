@@ -1140,6 +1140,54 @@
       "oldPrice": 0,
       "currencyType": "Coins",
       "rarity": "uncommon"
-    }
+    },
+	{
+	  "id": "skin_black_cat",
+	  "category": "skins",
+	  "subcategory": "skins",
+	  "iconSpriteName": "black_cat",
+	  "slotType": "skin",
+	  "price": 100,
+	  "oldPrice": 0,
+	  "currencyType": "Gems",
+	  "isLimited": false,
+	  "rarity": "common"
+	},
+	{
+	  "id": "skin_white_cat",
+	  "category": "skins",
+	  "subcategory": "skins",
+	  "iconSpriteName": "white_cat",
+	  "slotType": "skin",
+	  "price": 150,
+	  "oldPrice": 0,
+	  "currencyType": "Gems",
+	  "isLimited": false,
+	  "rarity": "common"
+	},
+	{
+	  "id": "skin_gray_cat",
+	  "category": "skins",
+	  "subcategory": "skins",
+	  "iconSpriteName": "gray_cat",
+	  "slotType": "skin",
+	  "price": 200,
+	  "oldPrice": 0,
+	  "currencyType": "Gems",
+	  "isLimited": false,
+	  "rarity": "uncommon"
+	},
+	{
+	  "id": "skin_calico_cat",
+	  "category": "skins",
+	  "subcategory": "skins",
+	  "iconSpriteName": "calico_cat",
+	  "slotType": "skin",
+	  "price": 300,
+	  "oldPrice": 0,
+	  "currencyType": "Gems",
+	  "isLimited": false,
+	  "rarity": "rare"
+	}
   ]
 }
