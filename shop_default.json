@@ -1149,7 +1149,7 @@
 	  "slotType": "skin",
 	  "price": 100,
 	  "oldPrice": 0,
-	  "currencyType": "Gems",
+	  "currencyType": "Coins",
 	  "isLimited": false,
 	  "rarity": "common"
 	},
