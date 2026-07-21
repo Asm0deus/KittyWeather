@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.3",
+  "version": "1.0.4",
   "saleConfig": {
     "enabled": false,
     "discountPercent": 20,
