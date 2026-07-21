@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "currencies": {
     "usdToGems": {
       "0.99": 30,
@@ -19,6 +19,6 @@
   },
   "startingBalance": {
     "coins": 500,
-    "gems": 0
+    "gems": 300
   }
 }
