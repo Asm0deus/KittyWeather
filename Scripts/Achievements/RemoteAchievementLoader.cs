@@ -10,7 +10,7 @@ using UnityEngine.Networking;
 public class RemoteAchievementLoader : MonoBehaviour
 {
     [Header("Config")]
-    [SerializeField] private string serverUrl = "https://br.b-fox.com/achievements.json";
+    [SerializeField] private string serverUrl = "https://cdn.jsdelivr.net/gh/Asm0deus/KittyWeather/achievements_def.json";
     [Header("UI")]
     [SerializeField] private GameObject itemPrefab;
     [SerializeField] private Transform contentPanel;
