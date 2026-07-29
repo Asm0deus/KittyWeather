@@ -31,7 +31,7 @@
       "plays": 0,
       "cooldownSeconds": 1.0,
       "feedbackText": "+1 <sprite index=0>",
-      "feedbackColor": "#FF6699"
+      "feedbackColor": "#FFFFFF"
     },
     "play": {
       "exp": 5,
@@ -42,7 +42,7 @@
       "plays": 1,
       "cooldownSeconds": 3.0,
       "feedbackText": "+5 <sprite index=1>",
-      "feedbackColor": "#FFE633"
+      "feedbackColor": "#FFFFFF"
     },
     "feed": {
       "exp": 0,
@@ -53,7 +53,7 @@
       "plays": 0,
       "cooldownSeconds": 3.0,
       "feedbackText": "+30 <sprite index=2>",
-      "feedbackColor": "#FF8033"
+      "feedbackColor": "#FFFFFF"
     },
     "rest": {
       "exp": 0,
@@ -64,7 +64,7 @@
       "plays": 0,
       "cooldownSeconds": 3.0,
       "feedbackText": "+30 <sprite index=3>",
-      "feedbackColor": "#4D99FF"
+      "feedbackColor": "#FFFFFF"
     }
   }
 }
