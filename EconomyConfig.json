@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.6",
   "currencies": {
     "usdToGems": {
       "0.99": 30,
@@ -19,6 +19,52 @@
   },
   "startingBalance": {
     "coins": 500,
-    "gems": 300
+    "gems": 0
+  },
+  "interactions": {
+    "pet": {
+      "exp": 1,
+      "energy": 0,
+      "hunger": 0,
+      "pettings": 1,
+      "feedings": 0,
+      "plays": 0,
+      "cooldownSeconds": 1.0,
+      "feedbackText": "+1 <sprite index=0>",
+      "feedbackColor": "#FF6699"
+    },
+    "play": {
+      "exp": 5,
+      "energy": -5,
+      "hunger": 0,
+      "pettings": 0,
+      "feedings": 0,
+      "plays": 1,
+      "cooldownSeconds": 3.0,
+      "feedbackText": "+5 <sprite index=1>",
+      "feedbackColor": "#FFE633"
+    },
+    "feed": {
+      "exp": 0,
+      "energy": 0,
+      "hunger": 30,
+      "pettings": 0,
+      "feedings": 1,
+      "plays": 0,
+      "cooldownSeconds": 3.0,
+      "feedbackText": "+30 <sprite index=2>",
+      "feedbackColor": "#FF8033"
+    },
+    "rest": {
+      "exp": 0,
+      "energy": 30,
+      "hunger": 0,
+      "pettings": 0,
+      "feedings": 0,
+      "plays": 0,
+      "cooldownSeconds": 3.0,
+      "feedbackText": "+30 <sprite index=3>",
+      "feedbackColor": "#4D99FF"
+    }
   }
 }
