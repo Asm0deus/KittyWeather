@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "2.0.0",
   "currencies": {
     "usdToGems": {
       "0.99": 30,
@@ -19,12 +19,23 @@
   },
   "startingBalance": {
     "coins": 500,
-    "gems": 0
+    "gems": 5
+  },
+  "ads": {
+    "gemsReward": 1,
+    "coinsReward": 30,
+    "maxPerDay": 15,
+    "cooldownSeconds": 1200
   },
   "interactions": {
-  "pet":  { "exp": 1, "cooldownSeconds": 3, "coins": 1, "maxPerDay": 30, "feedbackText": "+1 <sprite index=0>", "feedbackColor": "#FF6699" },
-  "feed": { "exp": 2, "cooldownSeconds": 3, "coins": 3, "maxPerDay": 10, "hunger": 30, "feedings": 1, "feedbackText": "+5 <sprite index=2>", "feedbackColor": "#FF6699" },
-  "play": { "exp": 5, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 15, "energy": -5, "plays": 1, "feedbackText": "+30 <sprite index=1>", "feedbackColor": "#FF6699" },
-  "rest": { "exp": 2, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 10, "energy": 30, "feedbackText": "+30 <sprite index=3>", "feedbackColor": "#FF6699" }
-	}
+    "pet":  { "exp": 1, "cooldownSeconds": 3, "coins": 1, "maxPerDay": 30, "feedbackText": "+1 <sprite index=0>", "feedbackColor": "#FF6699" },
+    "feed": { "exp": 2, "cooldownSeconds": 3, "coins": 3, "maxPerDay": 10, "hunger": 30, "feedings": 1, "feedbackText": "+30 <sprite index=2>", "feedbackColor": "#FF6699" },
+    "play": { "exp": 5, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 15, "energy": -5, "plays": 1, "feedbackText": "+5 <sprite index=1>", "feedbackColor": "#FF6699" },
+    "rest": { "exp": 2, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 10, "energy": 30, "feedbackText": "+30 <sprite index=3>", "feedbackColor": "#FF6699" }
+  },
+  "premiumFood": {
+    "common": { "hunger": 30, "price": 0, "currencyType": "Coins" },
+    "premium": { "hunger": 60, "price": 50, "currencyType": "Coins" },
+    "luxury": { "hunger": 100, "price": 10, "currencyType": "Gems" }
+  }
 }

@@ -1,0 +1,67 @@
+{
+  "stores": [
+    {
+      "storeId": "rustore",
+      "region": "RU",
+      "currency": "RUB",
+      "priceMultiplier": 0.3,
+      "iapPackages": [
+        { "id": "com.kitty.gems30",  "gems": 30,  "priceLocal": 79,   "priceUSD": 0.85 },
+        { "id": "com.kitty.gems70",  "gems": 70,  "priceLocal": 179,  "priceUSD": 1.95 },
+        { "id": "com.kitty.gems160", "gems": 160, "priceLocal": 399,  "priceUSD": 4.30 },
+        { "id": "com.kitty.gems380", "gems": 380, "priceLocal": 799,  "priceUSD": 8.65 },
+        { "id": "com.kitty.gems950", "gems": 950, "priceLocal": 1799, "priceUSD": 19.50 }
+      ],
+      "adsConfig": {
+        "networks": ["yandex", "mytarget"],
+        "gemsReward": 1,
+        "coinsReward": 30,
+        "maxPerDay": 15,
+        "cooldownSeconds": 1200,
+        "estimatedECPM": 2.0
+      }
+    },
+    {
+      "storeId": "appstore",
+      "region": "US",
+      "currency": "USD",
+      "priceMultiplier": 1.0,
+      "iapPackages": [
+        { "id": "com.kitty.gems30",  "gems": 30,  "priceLocal": 0.99, "priceUSD": 0.99 },
+        { "id": "com.kitty.gems70",  "gems": 70,  "priceLocal": 1.99, "priceUSD": 1.99 },
+        { "id": "com.kitty.gems160", "gems": 160, "priceLocal": 4.99, "priceUSD": 4.99 },
+        { "id": "com.kitty.gems380", "gems": 380, "priceLocal": 9.99, "priceUSD": 9.99 },
+        { "id": "com.kitty.gems950", "gems": 950, "priceLocal": 19.99,"priceUSD": 19.99 }
+      ],
+      "adsConfig": {
+        "networks": ["admob", "ironsource", "applovin"],
+        "gemsReward": 5,
+        "coinsReward": 60,
+        "maxPerDay": 10,
+        "cooldownSeconds": 1800,
+        "estimatedECPM": 20.0
+      }
+    },
+    {
+      "storeId": "googleplay",
+      "region": "US",
+      "currency": "USD",
+      "priceMultiplier": 1.0,
+      "iapPackages": [
+        { "id": "com.kitty.gems30",  "gems": 30,  "priceLocal": 0.99, "priceUSD": 0.99 },
+        { "id": "com.kitty.gems70",  "gems": 70,  "priceLocal": 1.99, "priceUSD": 1.99 },
+        { "id": "com.kitty.gems160", "gems": 160, "priceLocal": 4.99, "priceUSD": 4.99 },
+        { "id": "com.kitty.gems380", "gems": 380, "priceLocal": 9.99, "priceUSD": 9.99 },
+        { "id": "com.kitty.gems950", "gems": 950, "priceLocal": 19.99,"priceUSD": 19.99 }
+      ],
+      "adsConfig": {
+        "networks": ["admob", "ironsource", "unity"],
+        "gemsReward": 5,
+        "coinsReward": 60,
+        "maxPerDay": 10,
+        "cooldownSeconds": 1800,
+        "estimatedECPM": 18.0
+      }
+    }
+  ]
+}
