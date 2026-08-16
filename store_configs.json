@@ -1,6 +1,7 @@
 {
   "stores": [
     {
+	  "version": "1.0.0",
       "storeId": "rustore",
       "region": "RU",
       "currency": "RUB",
