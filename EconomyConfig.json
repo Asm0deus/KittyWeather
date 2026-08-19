@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "currencies": {
     "usdToGems": {
       "0.99": 30,
@@ -37,5 +37,16 @@
     "common": { "hunger": 30, "price": 0, "currencyType": "Coins" },
     "premium": { "hunger": 60, "price": 50, "currencyType": "Coins" },
     "luxury": { "hunger": 100, "price": 10, "currencyType": "Gems" }
+  },
+  "rest": { 
+  "exp": 2, 
+  "cooldownSeconds": 3, 
+  "coins": 2, 
+  "maxPerDay": 10, 
+  "energy": 30, 
+  "feedbackText": "+30 <sprite index=3>", 
+  "feedbackColor": "#4D99FF",
+  "sleepDuration": 30,
+  "deepSleepDuration": 10
   }
 }
