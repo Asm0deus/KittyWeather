@@ -1,5 +1,69 @@
 {
-  "version": "2.0.1",
+  "version": "3.0.0",
+  "startingBalance": {
+    "coins": 600,
+    "gems": 20
+  },
+  "leveling": {
+    "maxLevel": 80,
+    "baseXP": 50,
+    "growthFactor": 1.22,
+    "levelUpGemsReward": 2,
+	"levelRewards": { "coinsPerLevel": 20, "gemsEveryNLevels": 5, "gemsRewardAmount": 5	},
+    "unlocks": [
+      { "level": 1, "type": "decor_slot", "value": 1, "description": "Первая полка для декора" },
+	  { "level": 1, "type": "gem_conversion", "description": "Обмен гемов на монеты доступен сразу" },
+	  { "level": 1, "type": "premium_food", "description": "Премиум-корм доступен сразу" },
+	  { "level": 3, "type": "cat_slot", "value": 2, "description": "Второй кот" },
+      { "level": 10, "type": "decor_slot", "value": 2, "description": "Вторая полка для декора" },
+	  { "level": 10, "type": "cat_slot", "value": 3, "description": "Третий кот" },
+	  { "level": 10, "type": "title", "value": "Метеоролог", "description": "Титул" },
+	  { "level": 20, "type": "avatar_frame", "value": "frame_gold", "description": "Золотая рамка кота" },
+	  { "level": 30, "type": "title", "value": "Хранитель уюта", "description": "Титул" },
+	  { "level": 40, "type": "room_badge","value": "badge_trophy", "description": "Кубок в комнате" },
+	  { "level": 50, "type": "exclusive_skin", "value": "skin_legend", "description": "Эксклюзивный скин" },
+	  { "level": 50, "type": "title", "value": "Кото-легенда", "description": "Титул" },
+      { "level": 50, "type": "exclusive_item", "itemId": "bed_cloud_01", "description": "Эксклюзивная лежанка 'Облако'" },
+    ]
+  },
+  "slots": [
+    { "index": 1, "priceCoins": 0, "priceGems": 0, "requiredLevel": 1 },
+    { "index": 2, "priceCoins": 500, "priceGems": 0, "requiredLevel": 1 },
+    { "index": 3, "priceCoins": 1500, "priceGems": 0, "requiredLevel": 5 },
+    { "index": 4, "priceCoins": 4000, "priceGems": 0, "requiredLevel": 10 },
+    { "index": 5, "priceCoins": 0, "priceGems": 15, "requiredLevel": 15 },
+    { "index": 6, "priceCoins": 0, "priceGems": 30, "requiredLevel": 25 }
+  ],
+  "catNeeds": {
+    "hunger": {
+      "max": 100,
+      "decayPerHour": 1.5,
+      "thresholds": { "happy": 80, "sad": 30 }
+    },
+    "energy": {
+      "max": 100,
+      "decayPerHour": 1.0,
+      "playCost": 10,
+      "restGain": 40,
+      "thresholds": { "sleeping": 0 }
+    },
+    "happiness": {
+      "max": 100,
+      "decayPerHour": 0.5,
+      "decayPerHourOffline": 2.0,
+      "thresholds": { "inspired": 80, "sad": 40 }
+    },
+    "notifications": {
+      "hungerAlertThreshold": 30,
+      "energyAlertThreshold": 10,
+      "happinessAlertThreshold": 40,
+      "minMinutesBetweenPushes": 120
+    },
+    "multipliers": {
+      "happyXpBonus": 1.2,
+      "happyCoinBonus": 1.2
+    }
+  },
   "currencies": {
     "usdToGems": {
       "0.99": 30,
@@ -17,36 +81,52 @@
     },
     "defaultGemsToCoinsRate": 10
   },
-  "startingBalance": {
-    "coins": 500,
-    "gems": 5
-  },
   "ads": {
-    "gemsReward": 1,
-    "coinsReward": 30,
-    "maxPerDay": 15,
-    "cooldownSeconds": 1200
+    "gemsReward": 0,
+    "coinsReward": 40,
+    "maxPerDay": 6,
+    "cooldownSeconds": 1800
   },
   "interactions": {
-    "pet":  { "exp": 1, "cooldownSeconds": 3, "coins": 1, "maxPerDay": 30, "feedbackText": "+1 <sprite index=0>", "feedbackColor": "#FF6699" },
-    "feed": { "exp": 2, "cooldownSeconds": 3, "coins": 3, "maxPerDay": 10, "hunger": 30, "feedings": 1, "feedbackText": "+30 <sprite index=2>", "feedbackColor": "#FF6699" },
-    "play": { "exp": 5, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 15, "energy": -5, "plays": 1, "feedbackText": "+5 <sprite index=1>", "feedbackColor": "#FF6699" },
-    "rest": { "exp": 2, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 10, "energy": 30, "feedbackText": "+30 <sprite index=3>", "feedbackColor": "#FF6699" }
+	"maxCoinsPerDay": 100,
+    "pet": { "exp": 1, "cooldownSeconds": 3, "coins": 1, "maxPerDay": 25, "feedbackText": "+1 <sprite index=0>", "feedbackColor": "#FF6699" },
+    "feed": { "exp": 2, "cooldownSeconds": 3, "coins": 3, "maxPerDay": 8, "hunger": 30, "feedings": 1, "feedbackText": "+30 <sprite index=2>", "feedbackColor": "#FF8033" },
+    "play": { "exp": 5, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 12, "energy": -5, "plays": 1, "feedbackText": "+5 <sprite index=1>", "feedbackColor": "#FFE633" },
+    "rest": { "exp": 2, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 8, "energy": 30, "feedbackText": "+30 <sprite index=3>", "feedbackColor": "#4D99FF", "sleepDuration": 30, "deepSleepDuration": 10 }
   },
   "premiumFood": {
     "common": { "hunger": 30, "price": 0, "currencyType": "Coins" },
     "premium": { "hunger": 60, "price": 50, "currencyType": "Coins" },
     "luxury": { "hunger": 100, "price": 10, "currencyType": "Gems" }
   },
-  "rest": { 
-  "exp": 2, 
-  "cooldownSeconds": 3, 
-  "coins": 2, 
-  "maxPerDay": 10, 
-  "energy": 30, 
-  "feedbackText": "+30 <sprite index=3>", 
-  "feedbackColor": "#4D99FF",
-  "sleepDuration": 30,
-  "deepSleepDuration": 10
-  }
+	"daily": {
+	"questsPerDay": 3,
+	"allCompletedBonus": {
+	  "coins": 50,
+	  "gems": 2
+	},
+	"questPool": [
+	  { "id": "pet_10", "actionType": "pet", "target": 10, "rewardCoins": 25, "rewardGems": 0, "descriptionKey": "quest_pet_10" },
+	  { "id": "pet_15", "actionType": "pet", "target": 15, "rewardCoins": 35, "rewardGems": 0, "descriptionKey": "quest_pet_15" },
+	  { "id": "pet_25", "actionType": "pet", "target": 25, "rewardCoins": 50, "rewardGems": 0, "descriptionKey": "quest_pet_25" },
+	  { "id": "feed_2", "actionType": "feed", "target": 2, "rewardCoins": 30, "rewardGems": 0, "descriptionKey": "quest_feed_2" },
+	  { "id": "feed_3", "actionType": "feed", "target": 3, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_feed_3" },
+	  { "id": "feed_5", "actionType": "feed", "target": 5, "rewardCoins": 60, "rewardGems": 0, "descriptionKey": "quest_feed_5" },
+	  { "id": "play_3", "actionType": "play", "target": 3, "rewardCoins": 35, "rewardGems": 0, "descriptionKey": "quest_play_3" },
+	  { "id": "play_5", "actionType": "play", "target": 5, "rewardCoins": 55, "rewardGems": 0, "descriptionKey": "quest_play_5" },
+	  { "id": "play_8", "actionType": "play", "target": 8, "rewardCoins": 80, "rewardGems": 0, "descriptionKey": "quest_play_8" },
+	  { "id": "rest_2", "actionType": "rest", "target": 2, "rewardCoins": 25, "rewardGems": 0, "descriptionKey": "quest_rest_2" },
+	  { "id": "rest_4", "actionType": "rest", "target": 4, "rewardCoins": 45, "rewardGems": 0, "descriptionKey": "quest_rest_4" },
+	  { "id": "rest_6", "actionType": "rest", "target": 6, "rewardCoins": 65, "rewardGems": 0, "descriptionKey": "quest_rest_6" }
+	],
+	"loginStreak": [
+	  { "day": 1, "coins": 50, "gems": 0 },
+	  { "day": 2, "coins": 70, "gems": 0 },
+	  { "day": 3, "coins": 100, "gems": 0 },
+	  { "day": 4, "coins": 120, "gems": 0 },
+	  { "day": 5, "coins": 150, "gems": 0 },
+	  { "day": 6, "coins": 200, "gems": 0 },
+	  { "day": 7, "coins": 250, "gems": 10 }
+	]
+	}
 }
