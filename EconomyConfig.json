@@ -23,7 +23,7 @@
 	  { "level": 40, "type": "room_badge","value": "badge_trophy", "description": "Кубок в комнате" },
 	  { "level": 50, "type": "exclusive_skin", "value": "skin_legend", "description": "Эксклюзивный скин" },
 	  { "level": 50, "type": "title", "value": "Кото-легенда", "description": "Титул" },
-      { "level": 50, "type": "exclusive_item", "itemId": "bed_cloud_01", "description": "Эксклюзивная лежанка 'Облако'" },
+      { "level": 50, "type": "exclusive_item", "itemId": "bed_cloud_01", "description": "Эксклюзивная лежанка 'Облако'" }
     ]
   },
   "slots": [
