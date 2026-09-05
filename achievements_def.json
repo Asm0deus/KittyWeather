@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.0.1",
+  "version": "3.0.2",
   "definitions": [
     {"id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 2, "prerequisites": []},
     {"id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
