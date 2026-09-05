@@ -1,7 +1,7 @@
 ﻿{
   "version": "3.0.1",
   "definitions": [
-    {"id": "first_steps", "iconName": "001", "category": "general", "isHidden": , "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 2, "prerequisites": []},
+    {"id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 2, "prerequisites": []},
     {"id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
 
     {"id": "wet_paws", "iconName": "003", "category": "weather", "isHidden": false, "conditionType": "check_weather_rain_heavy", "targetValue": 1, "rewardCoins": 30, "rewardGems": 0, "prerequisites": []},
