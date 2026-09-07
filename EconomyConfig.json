@@ -1,5 +1,5 @@
 {
-  "version": "3.0.1",
+  "version": "3.0.2",
   "startingBalance": {
     "coins": 600,
     "gems": 20
@@ -88,7 +88,7 @@
     "cooldownSeconds": 1800
   },
   "interactions": {
-	"maxCoinsPerDay": 100,
+	"maxCoinsPerDay": 50,
     "pet": { "exp": 1, "cooldownSeconds": 3, "coins": 1, "maxPerDay": 25, "feedbackText": "+1 <sprite index=0>", "feedbackColor": "#FF6699" },
     "feed": { "exp": 2, "cooldownSeconds": 3, "coins": 3, "maxPerDay": 8, "hunger": 30, "feedings": 1, "feedbackText": "+30 <sprite index=2>", "feedbackColor": "#FF8033" },
     "play": { "exp": 5, "cooldownSeconds": 3, "coins": 2, "maxPerDay": 12, "energy": -5, "plays": 1, "feedbackText": "+5 <sprite index=1>", "feedbackColor": "#FFE633" },
