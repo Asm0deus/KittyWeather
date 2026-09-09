@@ -1,5 +1,5 @@
 {
-  "version": "3.0.3",
+  "version": "3.1.0",
   "startingBalance": {
     "coins": 600,
     "gems": 20
@@ -33,6 +33,17 @@
     { "index": 4, "priceCoins": 4000, "priceGems": 0, "requiredLevel": 10 },
     { "index": 5, "priceCoins": 0, "priceGems": 15, "requiredLevel": 15 },
     { "index": 6, "priceCoins": 0, "priceGems": 30, "requiredLevel": 25 }
+  ],
+  "decorSlots": [
+    { "slotId": "windowsill_1", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Подоконник слева" },
+    { "slotId": "windowsill_2", "unlockLevel": 3, "unlockPrice": 100, "unlockCurrency": "Coins", "description": "Подоконник справа" },
+    { "slotId": "shelves_1", "unlockLevel": 3, "unlockPrice": 100, "unlockCurrency": "Coins", "description": "Средняя полка" },
+    { "slotId": "shelves_2", "unlockLevel": 5, "unlockPrice": 250, "unlockCurrency": "Coins", "description": "Верхняя полка" },
+    { "slotId": "fireplace_clock", "unlockLevel": 8, "unlockPrice": 10, "unlockCurrency": "Gems", "description": "Над камином" },
+	{ "slotId": "fireplace_shelve", "unlockLevel": 10, "unlockPrice": 500, "unlockCurrency": "Coins", "description": "Каминная полка" },
+	{ "slotId": "floor_left", "unlockLevel": 12, "unlockPrice": 10, "unlockCurrency": "Gems", "description": "У камина слева" },
+	{ "slotId": "floor_right", "unlockLevel": 14, "unlockPrice": 1000, "unlockCurrency": "Coins", "description": "У камина справа" },
+    { "slotId": "window_curtain_1", "unlockLevel": 15, "unlockPrice": 20, "unlockCurrency": "Gems", "description": "Шторы" }
   ],
   "catNeeds": {
     "hunger": {
