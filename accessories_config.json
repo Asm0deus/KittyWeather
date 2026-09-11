@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "items": [
+    {
+      "itemId": "hat_h005",
+      "poses": { 
+		"sleep_base":  { "position": [-54,8, 5.9],  "scale": 0.8,  "rotation": 0 }, "lay_window":  { "position": [-63.5, 30.8], "scale": 0.8, "rotation": 0 },
+        "sit_fire":    { "position": [24.7, 87.8],  "scale": 0.8, "rotation": 0 }, "sit_window":  { "position": [-26.7, 89.2],  "scale": 0.8, "rotation": 0 },
+        "sleep_fire":  { "position": [-58.2, 88.2], "scale": 0.8, "rotation": 0 }, "sleep_lay":   { "position": [-94.5, -9.8],  "scale": 0.8, "rotation": 0 }
+      }
+    },
+    {
+      "itemId": "hat_h007",
+      "poses": {
+        "sleep_base":  { "position": [-47.1, 10.1],  "scale": 0.85, "rotation": 0 }, "lay_window":  { "position": [-66.6, 40.6], "scale": 0.75,  "rotation": 0 },
+        "sit_fire":    { "position": [28.7, 82.8],  "scale": 0.75,  "rotation": 0 }, "sit_window":  { "position": [-26.7, 82],  "scale": 0.75, "rotation": 0 },
+        "sleep_fire":  { "position": [-74.3, 100.1], "scale": 0.75, "rotation": 0 }, "sleep_lay":   { "position": [-115, -12.5],  "scale": 0.8,  "rotation": 0 }
+      }
+    },
+	{
+      "itemId": "hat_h013",
+      "poses": {
+        "sleep_base":  { "position": [-56.5, 1.4],  "scale": 0.85, "rotation": 0 }, "lay_window":  { "position": [-63.5, 51.8], "scale": 0.75,  "rotation": 0 },
+        "sit_fire":    { "position": [27.5, 97.1],  "scale": 0.75,  "rotation": 0 }, "sit_window":  { "position": [-26.7, 97.6],  "scale": 0.75, "rotation": 0 },
+        "sleep_fire":  { "position": [-81.8, 97], "scale": 0.75, "rotation": 0 }, "sleep_lay":   { "position": [-123.1, -4.4],  "scale": 0.8,  "rotation": 0 }
+      }
+    },
+    {
+      "itemId": "glass_gl003",
+      "poses": {
+        "sleep_base":  { "position": [-44.8, -20.4], "scale": 0.75,  "rotation": 0 }, "lay_window":  { "position": [-68.9, 15.4], "scale": 0.75, "rotation": 0 },
+        "sit_fire":    { "position": [58.3, 82.9], "scale": 0.75, "rotation": 0 }, "sit_window":  { "position": [-51, 84], "scale": 0.75,  "rotation": 0 },
+        "sleep_fire":  { "position": [-63.1, 75.1], "scale": 0.75, "rotation": 0 }, "sleep_lay":   { "position": [-108.3, -19.8], "scale": 0.75, "rotation": 0 }
+      }
+    },
+	{
+      "itemId": "glass_gl005",
+      "poses": {
+        "sleep_base":  { "position": [-45.8, -20.4], "scale": 0.75,  "rotation": 0 }, "lay_window":  { "position": [-70.2, 16.7], "scale": 0.75, "rotation": 0 },
+        "sit_fire":    { "position": [55.6, 86.9], "scale": 0.75, "rotation": 0 }, "sit_window":  { "position": [-57.3, 85.7], "scale": 0.75,  "rotation": 0 },
+        "sleep_fire":  { "position": [-62.8, 70.4], "scale": 0.7, "rotation": 0 }, "sleep_lay":   { "position": [-104.9, -20.1], "scale": 0.7, "rotation": 0 }
+      }
+    },
+	{
+      "itemId": "glass_gl016",
+      "poses": {
+        "sleep_base":  { "position": [-44.8, -20.4], "scale": 0.75,  "rotation": 0 }, "lay_window":  { "position": [-73.2, 20.9], "scale": 0.75, "rotation": 0 },
+        "sit_fire":    { "position": [59.7, 82], "scale": 0.75, "rotation": 0 }, "sit_window":  { "position": [-52, 86.5], "scale": 0.75,  "rotation": 0 },
+        "sleep_fire":  { "position": [-65.7, 73.5], "scale": 0.75, "rotation": 0 }, "sleep_lay":   { "position": [-108.3, -20.1], "scale": 0.75, "rotation": 0 }
+      }
+    },
+    {
+      "itemId": "collar_ch007",
+      "poses": {
+        "lay_window":  { "position": [-63.9, -32.6], "scale": 0.65,  "rotation": 0 },
+        "sit_fire":    { "position": [32.8, 36.5], "scale": 0.65, "rotation": 0 }, "sit_window":  { "position": [-33.4, 33.3], "scale": 0.65,  "rotation": 0 },
+        "sleep_fire":  { "position": [-40.1, 55.4], "scale": 0.68, "rotation": 0 }, "sleep_lay":   { "position": [-71.1, -29.8], "scale": 0.65, "rotation": 0 }
+      }
+    },
+	{
+      "itemId": "collar_ch016",
+      "poses": {
+        "sleep_base":  { "position": [-63.6, 19.7], "scale": 0.65,  "rotation": 0 }, "lay_window":  { "position": [-61.6, -20.4], "scale": 0.8,  "rotation": 0 },
+        "sit_fire":    { "position": [27.5, 40], "scale": 0.8, "rotation": 0 }, "sit_window":  { "position": [-26.9, 39.2], "scale": 0.8,  "rotation": 0 },
+        "sleep_fire":  { "position": [-33.6, 72.3], "scale": 0.8, "rotation": 0 }, "sleep_lay":   { "position": [-70.6, -28.4], "scale": 0.8, "rotation": 0 }
+      }
+    },
+	{
+      "itemId": "collar_ch023",
+      "poses": {
+        "sleep_base":  { "position": [-53.4, 24.1], "scale": 0.55,  "rotation": 0 }, "lay_window":  { "position": [-76, 3.7], "scale": 0.63,  "rotation": 0 },
+        "sit_fire":    { "position": [32.3, 50.3], "scale": 0.6, "rotation": 0 }, "sit_window":  { "position": [0.7, 52.6], "scale": 0.6,  "rotation": 0 },
+        "sleep_fire":  { "position": [-31.9, 73.9], "scale": 0.55, "rotation": 0 }, "sleep_lay":   { "position": [-93.4, -16], "scale": 0.6, "rotation": 0 }
+      }
+    }
+  ]
+}
