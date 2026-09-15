@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.0.3",
+  "version": "3.1.3",
   "definitions": [
     {"id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 2, "prerequisites": []},
     {"id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
@@ -33,7 +33,7 @@
     {"id": "sixth_sense", "iconName": "007", "category": "character", "isHidden": true, "conditionType": "login_before_rain", "targetValue": 1, "rewardCoins": 150, "rewardGems": 15, "prerequisites": []},
     {"id": "cat_traveler", "iconName": "008", "category": "character", "isHidden": true, "conditionType": "check_weather_abroad", "targetValue": 1, "rewardCoins": 80, "rewardGems": 3, "prerequisites": []},
     {"id": "energy_boost", "iconName": "017", "category": "character", "isHidden": false, "conditionType": "tap_cat", "targetValue": 50, "rewardCoins": 60, "rewardGems": 2, "prerequisites": []},
-    {"id": "slum_millionaire", "iconName": "018", "category": "character", "isHidden": false, "conditionType": "earn_coins_total", "targetValue": 1000, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
+    {"id": "slum_millionaire", "iconName": "018", "category": "character", "isHidden": false, "conditionType": "earn_coins_total", "targetValue": 5000, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
     {"id": "tail_guardian", "iconName": "019", "category": "character", "isHidden": true, "conditionType": "no_missed_notifications_days", "targetValue": 7, "rewardCoins": 200, "rewardGems": 15, "prerequisites": []},
     {"id": "supreme_purr", "iconName": "020", "category": "character", "isHidden": true, "conditionType": "unlock_all_achievements", "targetValue": 1, "rewardCoins": 1000, "rewardGems": 80, "excludeSelf": true, "prerequisites": []},
 

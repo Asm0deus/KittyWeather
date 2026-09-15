@@ -1,11 +1,12 @@
 {
   "stores": [
     {
-      "version": "1.0.0",
+      "version": "1.0.4",
       "storeId": "rustore",
       "region": "RU",
       "currency": "RUB",
       "iapPackages": [
+		{ "id": "com.kitty.starter_pack", "gems": 100},
         { "id": "com.kitty.gems30",  "gems": 30 },
         { "id": "com.kitty.gems70",  "gems": 70 },
         { "id": "com.kitty.gems160", "gems": 160 },
@@ -22,6 +23,7 @@
       "region": "US",
       "currency": "USD",
       "iapPackages": [
+	  { "id": "com.kitty.starter_pack", "gems": 100},
         { "id": "com.kitty.gems30",  "gems": 30 },
         { "id": "com.kitty.gems70",  "gems": 70 },
         { "id": "com.kitty.gems160", "gems": 160 },
@@ -38,6 +40,7 @@
       "region": "US",
       "currency": "USD",
       "iapPackages": [
+	  { "id": "com.kitty.starter_pack", "gems": 100},
         { "id": "com.kitty.gems30",  "gems": 30 },
         { "id": "com.kitty.gems70",  "gems": 70 },
         { "id": "com.kitty.gems160", "gems": 160 },

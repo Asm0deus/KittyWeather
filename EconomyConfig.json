@@ -1,8 +1,8 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.4",
   "startingBalance": {
     "coins": 600,
-    "gems": 20
+    "gems": 40
   },
   "leveling": {
     "maxLevel": 80,
@@ -36,14 +36,14 @@
   ],
   "decorSlots": [
     { "slotId": "windowsill_1", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Подоконник слева" },
-    { "slotId": "windowsill_2", "unlockLevel": 3, "unlockPrice": 100, "unlockCurrency": "Coins", "description": "Подоконник справа" },
-    { "slotId": "shelves_1", "unlockLevel": 3, "unlockPrice": 100, "unlockCurrency": "Coins", "description": "Средняя полка" },
-    { "slotId": "shelves_2", "unlockLevel": 5, "unlockPrice": 250, "unlockCurrency": "Coins", "description": "Верхняя полка" },
+    { "slotId": "windowsill_2", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Подоконник справа" },
+    { "slotId": "shelves_1", "unlockLevel": 2, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Средняя полка" },
+    { "slotId": "shelves_2", "unlockLevel": 5, "unlockPrice": 150, "unlockCurrency": "Coins", "description": "Верхняя полка" },
     { "slotId": "fireplace_clock", "unlockLevel": 8, "unlockPrice": 10, "unlockCurrency": "Gems", "description": "Над камином" },
-	{ "slotId": "fireplace_shelve", "unlockLevel": 10, "unlockPrice": 500, "unlockCurrency": "Coins", "description": "Каминная полка" },
-	{ "slotId": "floor_left", "unlockLevel": 12, "unlockPrice": 10, "unlockCurrency": "Gems", "description": "У камина слева" },
-	{ "slotId": "floor_right", "unlockLevel": 14, "unlockPrice": 1000, "unlockCurrency": "Coins", "description": "У камина справа" },
-    { "slotId": "window_curtain_1", "unlockLevel": 15, "unlockPrice": 20, "unlockCurrency": "Gems", "description": "Шторы" }
+	{ "slotId": "fireplace_shelve", "unlockLevel": 10, "unlockPrice": 300, "unlockCurrency": "Coins", "description": "Каминная полка" },
+	{ "slotId": "floor_left", "unlockLevel": 12, "unlockPrice": 8, "unlockCurrency": "Gems", "description": "У камина слева" },
+	{ "slotId": "floor_right", "unlockLevel": 14, "unlockPrice": 600, "unlockCurrency": "Coins", "description": "У камина справа" },
+    { "slotId": "window_curtain_1", "unlockLevel": 15, "unlockPrice": 15, "unlockCurrency": "Gems", "description": "Шторы" }
   ],
   "catNeeds": {
     "hunger": {
@@ -113,22 +113,22 @@
 	"daily": {
 	"questsPerDay": 3,
 	"allCompletedBonus": {
-	  "coins": 50,
-	  "gems": 2
+	  "coins": 80,
+	  "gems": 3
 	},
 	"questPool": [
-	  { "id": "pet_10", "actionType": "pet", "target": 10, "rewardCoins": 25, "rewardGems": 0, "descriptionKey": "quest_pet_10" },
-	  { "id": "pet_15", "actionType": "pet", "target": 15, "rewardCoins": 35, "rewardGems": 0, "descriptionKey": "quest_pet_15" },
-	  { "id": "pet_25", "actionType": "pet", "target": 25, "rewardCoins": 50, "rewardGems": 0, "descriptionKey": "quest_pet_25" },
-	  { "id": "feed_2", "actionType": "feed", "target": 2, "rewardCoins": 30, "rewardGems": 0, "descriptionKey": "quest_feed_2" },
-	  { "id": "feed_3", "actionType": "feed", "target": 3, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_feed_3" },
-	  { "id": "feed_5", "actionType": "feed", "target": 5, "rewardCoins": 60, "rewardGems": 0, "descriptionKey": "quest_feed_5" },
-	  { "id": "play_3", "actionType": "play", "target": 3, "rewardCoins": 35, "rewardGems": 0, "descriptionKey": "quest_play_3" },
-	  { "id": "play_5", "actionType": "play", "target": 5, "rewardCoins": 55, "rewardGems": 0, "descriptionKey": "quest_play_5" },
-	  { "id": "play_8", "actionType": "play", "target": 8, "rewardCoins": 80, "rewardGems": 0, "descriptionKey": "quest_play_8" },
-	  { "id": "rest_2", "actionType": "rest", "target": 2, "rewardCoins": 25, "rewardGems": 0, "descriptionKey": "quest_rest_2" },
-	  { "id": "rest_4", "actionType": "rest", "target": 4, "rewardCoins": 45, "rewardGems": 0, "descriptionKey": "quest_rest_4" },
-	  { "id": "rest_6", "actionType": "rest", "target": 6, "rewardCoins": 65, "rewardGems": 0, "descriptionKey": "quest_rest_6" }
+	  { "id": "pet_10", "actionType": "pet", "target": 10, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_pet_10" },
+	  { "id": "pet_15", "actionType": "pet", "target": 15, "rewardCoins": 55, "rewardGems": 0, "descriptionKey": "quest_pet_15" },
+	  { "id": "pet_25", "actionType": "pet", "target": 25, "rewardCoins": 80, "rewardGems": 0, "descriptionKey": "quest_pet_25" },
+	  { "id": "feed_2", "actionType": "feed", "target": 2, "rewardCoins": 45, "rewardGems": 0, "descriptionKey": "quest_feed_2" },
+	  { "id": "feed_3", "actionType": "feed", "target": 3, "rewardCoins": 60, "rewardGems": 0, "descriptionKey": "quest_feed_3" },
+	  { "id": "feed_5", "actionType": "feed", "target": 5, "rewardCoins": 90, "rewardGems": 0, "descriptionKey": "quest_feed_5" },
+	  { "id": "play_3", "actionType": "play", "target": 3, "rewardCoins": 55, "rewardGems": 0, "descriptionKey": "quest_play_3" },
+	  { "id": "play_5", "actionType": "play", "target": 5, "rewardCoins": 85, "rewardGems": 0, "descriptionKey": "quest_play_5" },
+	  { "id": "play_8", "actionType": "play", "target": 8, "rewardCoins": 120, "rewardGems": 0, "descriptionKey": "quest_play_8" },
+	  { "id": "rest_2", "actionType": "rest", "target": 2, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_rest_2" },
+	  { "id": "rest_4", "actionType": "rest", "target": 4, "rewardCoins": 70, "rewardGems": 0, "descriptionKey": "quest_rest_4" },
+	  { "id": "rest_6", "actionType": "rest", "target": 6, "rewardCoins": 100, "rewardGems": 0, "descriptionKey": "quest_rest_6" }
 	],
 	"loginStreak": [
 	  { "day": 1, "coins": 50, "gems": 0 },
