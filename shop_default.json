@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.1.4",
+  "version": "3.1.5",
   "saleConfig": {
     "enabled": false,
     "discountPercent": 20,
@@ -9,7 +9,7 @@
     "excludedItems": []
   },
   "releaseConfig": {
-    "globalStartDate": "2026-09-28T00:00:00Z",
+    "globalStartDate": "2026-09-21T00:00:00Z",
     "waveDurationDays": 7,
     "newBadgeDays": 5,
 	"upcomingPreviewDays": 7,
