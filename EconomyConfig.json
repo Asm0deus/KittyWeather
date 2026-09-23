@@ -1,5 +1,5 @@
 {
-  "version": "3.1.4",
+  "version": "3.1.5",
   "startingBalance": {
     "coins": 600,
     "gems": 40
@@ -11,19 +11,19 @@
     "levelUpGemsReward": 2,
 	"levelRewards": { "coinsPerLevel": 20, "gemsEveryNLevels": 5, "gemsRewardAmount": 5	},
     "unlocks": [
-      { "level": 1, "type": "decor_slot", "value": 1, "description": "Первая полка для декора" },
-	  { "level": 1, "type": "gem_conversion", "description": "Обмен гемов на монеты доступен сразу" },
-	  { "level": 1, "type": "premium_food", "description": "Премиум-корм доступен сразу" },
-	  { "level": 3, "type": "cat_slot", "value": 2, "description": "Второй кот" },
-      { "level": 10, "type": "decor_slot", "value": 2, "description": "Вторая полка для декора" },
-	  { "level": 10, "type": "cat_slot", "value": 3, "description": "Третий кот" },
-	  { "level": 10, "type": "title", "value": "Метеоролог", "description": "Титул" },
-	  { "level": 20, "type": "avatar_frame", "value": "frame_gold", "description": "Золотая рамка кота" },
-	  { "level": 30, "type": "title", "value": "Хранитель уюта", "description": "Титул" },
-	  { "level": 40, "type": "room_badge","value": "badge_trophy", "description": "Кубок в комнате" },
-	  { "level": 50, "type": "exclusive_skin", "value": "skin_legend", "description": "Эксклюзивный скин" },
-	  { "level": 50, "type": "title", "value": "Кото-легенда", "description": "Титул" },
-      { "level": 50, "type": "exclusive_item", "itemId": "bed_cloud_01", "description": "Эксклюзивная лежанка 'Облако'" }
+      { "level": 1, "type": "decor_slot", "value": 1, "description": "" },
+	  { "level": 1, "type": "gem_conversion", "description": "" },
+	  { "level": 1, "type": "premium_food", "description": "" },
+	  { "level": 3, "type": "cat_slot", "value": 2, "description": "" },
+      { "level": 10, "type": "decor_slot", "value": 2, "description": "" },
+	  { "level": 10, "type": "cat_slot", "value": 3, "description": "" },
+	  { "level": 10, "type": "title", "value": "Метеоролог", "description": "" },
+	  { "level": 20, "type": "avatar_frame", "value": "frame_gold", "description": "" },
+	  { "level": 30, "type": "title", "value": "Хранитель уюта", "description": "" },
+	  { "level": 40, "type": "room_badge","value": "badge_trophy", "description": "" },
+	  { "level": 50, "type": "exclusive_skin", "value": "skin_legend", "description": "" },
+	  { "level": 50, "type": "title", "value": "Кото-легенда", "description": "" },
+      { "level": 50, "type": "exclusive_item", "itemId": "bed_cloud_01", "description": "" }
     ]
   },
   "slots": [
