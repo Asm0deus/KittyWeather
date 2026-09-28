@@ -5,20 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Kitty Weather</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; }
-        h1 { color: #333; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
-        h2 { color: #555; margin-top: 30px; }
-        p, ul { color: #666; }
-        .last-updated { color: #999; font-size: 0.9em; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            max-width: 750px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            line-height: 1.7; 
+            color: #333333;
+            background-color: #ffffff;
+        }
+        h1 { 
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #111111; 
+            margin-bottom: 5px;
+        }
+        h2 { 
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #222222; 
+            margin-top: 40px; 
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #444444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p { 
+            margin-bottom: 20px; 
+        }
+        ul { 
+            margin-bottom: 25px; 
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated { 
+            color: #888888; 
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+        }
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 15px 20px;
+            margin: 25px 0;
+            font-size: 0.95rem;
+            color: #555555;
+        }
     </style>
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last updated: September 28, 2026</p>
+    <div class="last-updated">Last updated: September 28, 2026</div>
 
     <p>Kitty Weather ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application ("App").</p>
 
     <h2>Information We Collect</h2>
+    
     <h3>Information You Provide</h3>
     <ul>
         <li><strong>Account Information:</strong> When you sign in with Google or Apple, we receive your unique identifier and optionally your name and email address (depending on your privacy settings with the provider).</li>
@@ -29,50 +86,61 @@
     <ul>
         <li><strong>Device Information:</strong> We collect device type, operating system version, and unique device identifiers for analytics and crash reporting.</li>
         <li><strong>Usage Data:</strong> We track app usage patterns, feature interactions, and session duration to improve user experience.</li>
-        <li><strong>Location Data (Optional):</strong> If you grant permission, we use your approximate location to provide local weather forecasts. This data is not stored on our servers.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>Note on Device Identifiers & Tracking:</strong> These identifiers and usage data are processed solely for internal performance monitoring, product development, and app stability. We do not use this data for cross-site tracking, nor do we share or sell it to any third-party advertising or data brokerage networks.
+    </div>
+
+    <ul>
+        <li><strong>Location Data (Optional):</strong> If you grant permission, we use your approximate location to provide local weather forecasts. This data is processed locally on your device and is not transmitted to or stored on our servers.</li>
     </ul>
 
     <h2>How We Use Your Information</h2>
     <ul>
-        <li>To provide and maintain the App's core functionality (weather forecasts, game progress synchronization)</li>
-        <li>To authenticate your identity and sync progress across devices</li>
-        <li>To analyze app performance and fix technical issues</li>
-        <li>To send local notifications about your virtual pet's needs (only if you enable notifications)</li>
+        <li>To provide and maintain the App's core functionality (weather forecasts, game progress synchronization).</li>
+        <li>To authenticate your identity and sync progress across multiple devices.</li>
+        <li>To analyze app performance, diagnose software bugs, and fix technical issues.</li>
+        <li>To send local notifications about your virtual pet's needs (only if you explicitly enable notifications).</li>
     </ul>
 
     <h2>Third-Party Services</h2>
-    <p>We use the following third-party services:</p>
+    <p>To ensure high performance, stability, and convenient infrastructure, we utilize the following third-party services. Please review their respective privacy policies:</p>
     <ul>
-        <li><strong>Firebase (Google LLC):</strong> Authentication, cloud database, and crash reporting. <a href="https://firebase.google.com/terms" target="_blank">Privacy Policy</a></li>
-        <li><strong>Open-Meteo API:</strong> Weather data provider. <a href="https://open-meteo.com/en/privacy" target="_blank">Privacy Policy</a></li>
-        <li><strong>Nominatim (OpenStreetMap):</strong> Geocoding for location-based weather. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank">Privacy Policy</a></li>
-        <li><strong>Unity IAP:</strong> In-app purchase processing. <a href="https://unity.com/legal/privacy-policy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Firebase (Google LLC):</strong> Used for secure user authentication, cloud database hosting, and automated crash reporting. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Open-Meteo API:</strong> Used as our global weather data provider. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> Used for secure geocoding to resolve location-based weather data. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Unity IAP:</strong> Used exclusively for secure processing of in-app purchases. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
     </ul>
 
     <h2>Data Storage and Security</h2>
-    <p>Your game progress and account information are stored securely on Firebase servers. We implement industry-standard security measures to protect your data. However, no method of transmission over the Internet is 100% secure.</p>
+    <p>Your game progress and account information are stored securely on Firebase cloud servers. We implement industry-standard administrative and technical security measures to safeguard your data. However, please note that no method of transmission over the Internet or electronic storage is 100% secure.</p>
 
-    <h2>Data Retention</h2>
-    <p>We retain your account data as long as your account is active. You can request deletion of your account and associated data at any time through the App's settings menu ("Delete Account" option).</p>
+    <h2>Data Retention & Account Deletion</h2>
+    <p>We retain your account data for as long as your account remains active. You have full control over your data and can request complete deletion of your account and all associated personal information at any time. This can be initiated in two ways:</p>
+    <ul>
+        <li><strong>In-App Menu:</strong> Navigate to the App's settings menu and choose the <strong>"Delete Account"</strong> option.</li>
+        <li><strong>Direct Request:</strong> Send an explicit email request to our support team at <a href="mailto:black4x4dev@gmail.com">black4x4dev@gmail.com</a>, and we will purge your data from our systems manually.</li>
+    </ul>
 
     <h2>Your Rights</h2>
-    <p>You have the right to:</p>
+    <p>Depending on your jurisdiction, you have the following rights regarding your information:</p>
     <ul>
-        <li>Access your personal data</li>
-        <li>Request correction of inaccurate data</li>
-        <li>Request deletion of your account and data</li>
-        <li>Opt-out of notifications at any time</li>
-        <li>Revoke location permissions through your device settings</li>
+        <li>The right to access the personal data we hold about you.</li>
+        <li>The right to request the correction of inaccurate or incomplete data.</li>
+        <li>The right to request total deletion of your account and data.</li>
+        <li>The right to opt-out of local push notifications at any time.</li>
+        <li>The right to revoke location permissions at any time through your iOS device system settings.</li>
     </ul>
 
     <h2>Children's Privacy</h2>
-    <p>The App is suitable for all ages. We do not knowingly collect personal information from children under 13 without parental consent. If you believe we have collected information from a child, please contact us.</p>
+    <p>The App features family-friendly content and is suitable for all ages. It is designed for a general audience. We do not knowingly collect personal information from children under the age of 13 without parental consent. If you have reason to believe that a child under 13 has provided personal data to us, please contact us immediately, and we will take swift action to delete such data.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any modifications by posting the revised document on this webpage and updating the "Last updated" date at the top.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us:</p>
+    <p>If you have any questions, concerns, or data requests regarding this Privacy Policy, please feel free to reach out to us:</p>
     <ul>
         <li>Email: <a href="mailto:black4x4dev@gmail.com">black4x4dev@gmail.com</a></li>
     </ul>
