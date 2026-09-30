@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Support - Kitty Weather</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            max-width: 750px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            line-height: 1.7; 
+            color: #333333;
+            background-color: #ffffff;
+        }
+        h1 { font-size: 2.2rem; font-weight: 700; color: #111111; margin-bottom: 5px; }
+        h2 { font-size: 1.5rem; font-weight: 600; color: #222222; margin-top: 30px; margin-bottom: 15px; border-bottom: 1px solid #eaeaea; padding-bottom: 8px; }
+        p { margin-bottom: 15px; color: #555555; }
+        ul { margin-bottom: 20px; padding-left: 20px; }
+        li { margin-bottom: 8px; color: #555555; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .last-updated { color: #888888; font-size: 0.95rem; margin-bottom: 40px; }
+        .contact-block {
+            background-color: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 20px 25px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+        .contact-block h2 { margin-top: 0; border-bottom: none; padding-bottom: 0; font-size: 1.2rem; }
+        .contact-block a { font-size: 1.1rem; font-weight: 600; }
+        .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #eaeaea; font-size: 0.85rem; color: #999999; text-align: center; }
+        .lang-switcher { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 30px; padding: 15px; background: #f8f9fa; border-radius: 8px; }
+        .lang-btn { padding: 6px 12px; border: 1px solid #ddd; border-radius: 4px; background: white; cursor: pointer; font-size: 0.9rem; transition: all 0.2s; }
+        .lang-btn:hover { background: #e9ecef; }
+        .lang-btn.active { background: #0066cc; color: white; border-color: #0066cc; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <!-- Языковой переключатель -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ru">Русский</button>
+        <button class="lang-btn" data-lang="fr">Français</button>
+        <button class="lang-btn" data-lang="es">Español</button>
+        <button class="lang-btn" data-lang="tr">Türkçe</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn" data-lang="zh">中文</button>
+    </div>
+
+    <!-- ===== ENGLISH ===== -->
+    <div class="lang-content active" data-lang="en">
+        <h1>Contact & Support</h1>
+        <div class="last-updated">Kitty Weather — Support Center</div>
+
+        <p>Thank you for using Kitty Weather! We're here to help.</p>
+
+        <div class="contact-block">
+            <h2>📧 Email Support</h2>
+            <p>For technical issues, bug reports, or general questions:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>We typically respond within 1–3 business days.</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 Bug Reports</h2>
+            <p>Found a bug or have a feature request? Please include:</p>
+            <ul>
+                <li>What you were doing when the issue occurred</li>
+                <li>Your device type and iOS version</li>
+                <li>Screenshots (if applicable)</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 In-App Purchase Issues</h2>
+            <p>For issues with purchases made through the App Store:</p>
+            <ul>
+                <li>If currency was not credited — email us with your Apple receipt screenshot.</li>
+                <li>For refunds — contact Apple Support directly or visit <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ Account Deletion</h2>
+            <p>To permanently delete your account and all associated data:</p>
+            <ul>
+                <li><strong>In-App:</strong> Settings → "Delete Account"</li>
+                <li><strong>Or email:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> with subject "Account Deletion Request"</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 Legal Documents</h2>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 App Information</h2>
+            <ul>
+                <li><strong>App Name:</strong> Kitty Weather</li>
+                <li><strong>Developer:</strong> Ivan Popivchak</li>
+                <li><strong>Supported Languages:</strong> English, Russian, French, Spanish, Turkish, Japanese, Chinese</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== РУССКИЙ ===== -->
+    <div class="lang-content" data-lang="ru">
+        <h1>Поддержка</h1>
+        <div class="last-updated">Kitty Weather — Центр поддержки</div>
+
+        <p>Спасибо, что играете в Kitty Weather! Мы всегда рады помочь.</p>
+
+        <div class="contact-block">
+            <h2>📧 Email поддержки</h2>
+            <p>По техническим вопросам, сообщениям об ошибках или общим обращениям:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>Мы отвечаем в течение 1–3 рабочих дней.</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 Сообщить об ошибке</h2>
+            <p>Нашли ошибку или хотите предложить новую функцию? Укажите:</p>
+            <ul>
+                <li>Что вы делали в момент возникновения проблемы</li>
+                <li>Модель вашего устройства и версию iOS</li>
+                <li>Скриншоты (если возможно)</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 Проблемы с покупками</h2>
+            <p>По вопросам покупок, совершённых через App Store:</p>
+            <ul>
+                <li>Если валюта не зачислена — напишите нам, приложив скриншот чека Apple.</li>
+                <li>Для возврата средств — обратитесь напрямую в поддержку Apple или посетите <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ Удаление аккаунта</h2>
+            <p>Чтобы полностью удалить аккаунт и все связанные данные:</p>
+            <ul>
+                <li><strong>В приложении:</strong> Настройки → «Удалить аккаунт»</li>
+                <li><strong>Или email:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> с темой «Запрос на удаление аккаунта»</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 Юридические документы</h2>
+            <ul>
+                <li><a href="privacy.html">Политика конфиденциальности</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 Информация о приложении</h2>
+            <ul>
+                <li><strong>Название:</strong> Kitty Weather</li>
+                <li><strong>Разработчик:</strong> Иван Попивчак</li>
+                <li><strong>Языки:</strong> Русский, Английский, Французский, Испанский, Турецкий, Японский, Китайский</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== FRANÇAIS ===== -->
+    <div class="lang-content" data-lang="fr">
+        <h1>Contact & Support</h1>
+        <div class="last-updated">Kitty Weather — Centre d'assistance</div>
+
+        <p>Merci d'utiliser Kitty Weather ! Nous sommes là pour vous aider.</p>
+
+        <div class="contact-block">
+            <h2>📧 Support par e-mail</h2>
+            <p>Pour les problèmes techniques, rapports de bugs ou questions générales :</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>Nous répondons généralement dans un délai de 1 à 3 jours ouvrables.</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 Rapports de bugs</h2>
+            <p>Vous avez trouvé un bug ou avez une suggestion de fonctionnalité ? Veuillez inclure :</p>
+            <ul>
+                <li>Ce que vous faisiez lorsque le problème s'est produit</li>
+                <li>Votre type d'appareil et votre version d'iOS</li>
+                <li>Des captures d'écran (si applicable)</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 Problèmes d'achats intégrés</h2>
+            <p>Pour les problèmes d'achats effectués via l'App Store :</p>
+            <ul>
+                <li>Si la monnaie n'a pas été créditée — envoyez-nous un e-mail avec une capture d'écran de votre reçu Apple.</li>
+                <li>Pour les remboursements — contactez directement le support Apple ou visitez <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ Suppression du compte</h2>
+            <p>Pour supprimer définitivement votre compte et toutes les données associées :</p>
+            <ul>
+                <li><strong>Dans l'application :</strong> Paramètres → « Supprimer le compte »</li>
+                <li><strong>Ou par e-mail :</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> avec l'objet « Demande de suppression de compte »</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 Documents juridiques</h2>
+            <ul>
+                <li><a href="privacy.html">Politique de confidentialité</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 Informations sur l'application</h2>
+            <ul>
+                <li><strong>Nom de l'application :</strong> Kitty Weather</li>
+                <li><strong>Développeur :</strong> Ivan Popivchak</li>
+                <li><strong>Langues prises en charge :</strong> Anglais, Russe, Français, Espagnol, Turc, Japonais, Chinois</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== ESPAÑOL ===== -->
+    <div class="lang-content" data-lang="es">
+        <h1>Contacto y Soporte</h1>
+        <div class="last-updated">Kitty Weather — Centro de Soporte</div>
+
+        <p>¡Gracias por usar Kitty Weather! Estamos aquí para ayudar.</p>
+
+        <div class="contact-block">
+            <h2>📧 Soporte por correo electrónico</h2>
+            <p>Para problemas técnicos, reportes de errores o preguntas generales:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>Normalmente respondemos en un plazo de 1 a 3 días hábiles.</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 Reportes de errores</h2>
+            <p>¿Encontró un error o tiene una solicitud de función? Por favor incluya:</p>
+            <ul>
+                <li>Lo que estaba haciendo cuando ocurrió el problema</li>
+                <li>El tipo de dispositivo y la versión de iOS</li>
+                <li>Capturas de pantalla (si aplica)</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 Problemas con compras dentro de la aplicación</h2>
+            <p>Para problemas con compras realizadas a través de la App Store:</p>
+            <ul>
+                <li>Si no se acreditó la moneda — envíenos un correo con una captura de pantalla de su recibo de Apple.</li>
+                <li>Para reembolsos — comuníquese directamente con el soporte de Apple o visite <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>.</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ Eliminación de cuenta</h2>
+            <p>Para eliminar permanentemente su cuenta y todos los datos asociados:</p>
+            <ul>
+                <li><strong>En la aplicación:</strong> Configuración → "Eliminar cuenta"</li>
+                <li><strong>O por correo:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> con el asunto "Solicitud de eliminación de cuenta"</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 Documentos legales</h2>
+            <ul>
+                <li><a href="privacy.html">Política de Privacidad</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 Información de la aplicación</h2>
+            <ul>
+                <li><strong>Nombre:</strong> Kitty Weather</li>
+                <li><strong>Desarrollador:</strong> Ivan Popivchak</li>
+                <li><strong>Idiomas admitidos:</strong> Inglés, Ruso, Francés, Español, Turco, Japonés, Chino</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== TÜRKÇE ===== -->
+    <div class="lang-content" data-lang="tr">
+        <h1>İletişim & Destek</h1>
+        <div class="last-updated">Kitty Weather — Destek Merkezi</div>
+
+        <p>Kitty Weather'ı kullandığınız için teşekkürler! Yardım için buradayız.</p>
+
+        <div class="contact-block">
+            <h2>📧 E-posta Desteği</h2>
+            <p>Teknik sorunlar, hata raporları veya genel sorular için:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>Genellikle 1-3 iş günü içinde yanıt veriyoruz.</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 Hata Raporları</h2>
+            <p>Bir hata buldunuz veya özellik talebiniz mi var? Lütfen şunları ekleyin:</p>
+            <ul>
+                <li>Sorun oluştuğunda ne yapıyordunuz</li>
+                <li>Cihaz türünüz ve iOS sürümünüz</li>
+                <li>Ekran görüntüleri (uygulanabilir ise)</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 Uygulama İçi Satın Alma Sorunları</h2>
+            <p>App Store üzerinden yapılan satın almalardaki sorunlar için:</p>
+            <ul>
+                <li>Para birimi yatırılmadıysa — Apple makbuzunuzun ekran görüntüsüyle bize e-posta gönderin.</li>
+                <li>İadeler için — doğrudan Apple Destek ile iletişime geçin veya <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> adresini ziyaret edin.</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ Hesap Silme</h2>
+            <p>Hesabınızı ve ilişkili tüm verileri kalıcı olarak silmek için:</p>
+            <ul>
+                <li><strong>Uygulama içinde:</strong> Ayarlar → "Hesabı Sil"</li>
+                <li><strong>Veya e-posta:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> "Hesap Silme Talebi" konusuyla</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 Yasal Belgeler</h2>
+            <ul>
+                <li><a href="privacy.html">Gizlilik Politikası</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 Uygulama Bilgileri</h2>
+            <ul>
+                <li><strong>Uygulama Adı:</strong> Kitty Weather</li>
+                <li><strong>Geliştirici:</strong> Ivan Popivchak</li>
+                <li><strong>Desteklenen Diller:</strong> İngilizce, Rusça, Fransızca, İspanyolca, Türkçe, Japonca, Çince</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== 日本語 ===== -->
+    <div class="lang-content" data-lang="ja">
+        <h1>お問い合わせ & サポート</h1>
+        <div class="last-updated">Kitty Weather — サポートセンター</div>
+
+        <p>Kitty Weatherをご利用いただきありがとうございます！お手伝いさせていただきます。</p>
+
+        <div class="contact-block">
+            <h2>📧 メールサポート</h2>
+            <p>技術的な問題、バグ報告、一般的なご質問:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>通常、1～3営業日以内にご返信いたします。</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 バグ報告</h2>
+            <p>バグを発見された、または機能のご要望がありますか？以下を含めてください:</p>
+            <ul>
+                <li>問題が発生したときに何をしていたか</li>
+                <li>お使いのデバイスタイプとiOSバージョン</li>
+                <li>スクリーンショット（該当する場合）</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 アプリ内購入の問題</h2>
+            <p>App Store経由の購入に関する問題:</p>
+            <ul>
+                <li>通貨が付与されなかった場合 — Appleの領収書のスクリーンショットを添えてメールをお送りください。</li>
+                <li>返金については — Appleサポートに直接お問い合わせいただくか、<a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> にアクセスしてください。</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ アカウント削除</h2>
+            <p>アカウントと関連するすべてのデータを完全に削除するには:</p>
+            <ul>
+                <li><strong>アプリ内:</strong> 設定 → 「アカウントを削除」</li>
+                <li><strong>またはメール:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> 件名「アカウント削除リクエスト」</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 法的文書</h2>
+            <ul>
+                <li><a href="privacy.html">プライバシーポリシー</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 アプリ情報</h2>
+            <ul>
+                <li><strong>アプリ名:</strong> Kitty Weather</li>
+                <li><strong>開発者:</strong> Ivan Popivchak</li>
+                <li><strong>対応言語:</strong> 英語、ロシア語、フランス語、スペイン語、トルコ語、日本語、中国語</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== 中文 ===== -->
+    <div class="lang-content" data-lang="zh">
+        <h1>联系与支持</h1>
+        <div class="last-updated">Kitty Weather — 支持中心</div>
+
+        <p>感谢您使用 Kitty Weather！我们随时为您提供帮助。</p>
+
+        <div class="contact-block">
+            <h2>📧 邮件支持</h2>
+            <p>技术问题、错误报告或一般咨询:</p>
+            <p><a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></p>
+            <p>我们通常在1-3个工作日内回复。</p>
+        </div>
+
+        <div class="contact-block">
+            <h2>🐛 错误报告</h2>
+            <p>发现错误或有任何功能请求？请包含:</p>
+            <ul>
+                <li>问题发生时您在做什么</li>
+                <li>您的设备类型和iOS版本</li>
+                <li>截图（如果适用）</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>💰 应用内购买问题</h2>
+            <p>通过 App Store 进行的购买问题:</p>
+            <ul>
+                <li>如果货币未到账 — 请发送您的 Apple 收据截图给我们。</li>
+                <li>退款 — 请直接联系 Apple 支持或访问 <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>。</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>🗑️ 删除账户</h2>
+            <p>要永久删除您的账户和所有相关数据:</p>
+            <ul>
+                <li><strong>应用内:</strong> 设置 → "删除账户"</li>
+                <li><strong>或邮件:</strong> <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>，主题为"账户删除请求"</li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📄 法律文件</h2>
+            <ul>
+                <li><a href="privacy.html">隐私政策</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-block">
+            <h2>📱 应用信息</h2>
+            <ul>
+                <li><strong>应用名称:</strong> Kitty Weather</li>
+                <li><strong>开发者:</strong> Ivan Popivchak</li>
+                <li><strong>支持语言:</strong> 英语、俄语、法语、西班牙语、土耳其语、日语、中文</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== ОБЩИЙ FOOTER (вне блоков lang-content) ===== -->
+    <div class="footer">
+        © 2026 Ivan Popivchak. All rights reserved.<br>
+        Kitty Weather is a trademark of Ivan Popivchak.
+    </div>
+
+    <!-- ===== JAVASCRIPT (вне блоков lang-content) ===== -->
+    <script>
+        function detectLanguage() {
+            const browserLang = navigator.language || navigator.userLanguage;
+            const langCode = browserLang.split('-')[0];
+            const supportedLangs = ['en', 'ru', 'fr', 'es', 'tr', 'ja', 'zh'];
+            return supportedLangs.includes(langCode) ? langCode : 'en';
+        }
+
+        function switchLanguage(lang) {
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+
+            const content = document.querySelector(`.lang-content[data-lang="${lang}"]`);
+            if (content) content.classList.add('active');
+
+            const button = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
+            if (button) button.classList.add('active');
+
+            localStorage.setItem('preferredLang', lang);
+
+            // ИСПРАВЛЕНО v1.1.0: правильные titles для Contact & Support
+            const titles = {
+                en: 'Contact & Support - Kitty Weather',
+                ru: 'Поддержка — Kitty Weather',
+                fr: 'Contact & Support - Kitty Weather',
+                es: 'Contacto y Soporte - Kitty Weather',
+                tr: 'İletişim & Destek - Kitty Weather',
+                ja: 'お問い合わせ & サポート - Kitty Weather',
+                zh: '联系与支持 - Kitty Weather'
+            };
+            document.title = titles[lang] || titles.en;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLang');
+            const initialLang = savedLang || detectLanguage();
+            switchLanguage(initialLang);
+
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    switchLanguage(this.dataset.lang);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

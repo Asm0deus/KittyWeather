@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Kitty Weather</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            max-width: 750px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            line-height: 1.7; 
+            color: #333333;
+            background-color: #ffffff;
+        }
+        h1 { 
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #111111; 
+            margin-bottom: 5px;
+        }
+        h2 { 
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #222222; 
+            margin-top: 40px; 
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #444444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p { margin-bottom: 20px; }
+        ul { margin-bottom: 25px; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .last-updated { color: #888888; font-size: 0.95rem; margin-bottom: 40px; }
+        .highlight-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 15px 20px;
+            margin: 25px 0;
+            font-size: 0.95rem;
+            color: #555555;
+        }
+        
+        /* Языковой переключатель */
+        .lang-switcher {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .lang-btn {
+            padding: 6px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        .lang-btn:hover {
+            background: #e9ecef;
+        }
+        .lang-btn.active {
+            background: #0066cc;
+            color: white;
+            border-color: #0066cc;
+        }
+        
+        /* Скрытие неактивных языков */
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+    </style>
+</head>
+<body>
+    <!-- Языковой переключатель -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ru">Русский</button>
+        <button class="lang-btn" data-lang="fr">Français</button>
+        <button class="lang-btn" data-lang="es">Español</button>
+        <button class="lang-btn" data-lang="tr">Türkçe</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+        <button class="lang-btn" data-lang="zh">中文</button>
+    </div>
+
+    <!-- ===== ENGLISH ===== -->
+<div class="lang-content active" data-lang="en">
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last updated: September 28, 2026</div>
+    <p>Kitty Weather ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application ("App").</p>
+    
+    <h2>Information We Collect</h2>
+    <h3>Information You Provide</h3>
+    <ul>
+        <li><strong>Account Information:</strong> When you sign in with Google or Apple, we receive your unique identifier and optionally your name and email address (depending on your privacy settings with the provider).</li>
+        <li><strong>Game Progress:</strong> We store your in-game progress, including cat levels, purchased items, achievements, and virtual currency balances.</li>
+    </ul>
+    
+    <h3>Information Collected Automatically</h3>
+    <ul>
+        <li><strong>Device Information:</strong> We collect device type, operating system version, and unique device identifiers for analytics and crash reporting.</li>
+        <li><strong>Usage Data:</strong> We track app usage patterns, feature interactions, and session duration to improve user experience.</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>Note on Device Identifiers & Tracking:</strong> These identifiers and usage data are processed solely for internal performance monitoring, product development, and app stability. We do not use this data for cross-site tracking, nor do we share or sell it to any third-party advertising or data brokerage networks.
+    </div>
+    
+    <ul>
+        <li><strong>Location Data (Optional):</strong> If you grant permission, we use your approximate location to provide local weather forecasts. This data is processed locally on your device and is not transmitted to or stored on our servers.</li>
+    </ul>
+    
+    <h2>How We Use Your Information</h2>
+    <ul>
+        <li>To provide and maintain the App's core functionality (weather forecasts, game progress synchronization).</li>
+        <li>To authenticate your identity and sync progress across multiple devices.</li>
+        <li>To analyze app performance, diagnose software bugs, and fix technical issues.</li>
+        <li>To send local notifications about your virtual pet's needs (only if you explicitly enable notifications).</li>
+    </ul>
+    
+    <h2>Third-Party Services</h2>
+    <p>To ensure high performance, stability, and convenient infrastructure, we utilize the following third-party services. Please review their respective privacy policies:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> Used for secure user authentication, cloud database hosting, and automated crash reporting. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Open-Meteo API:</strong> Used as our global weather data provider. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> Used for secure geocoding to resolve location-based weather data. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><strong>Unity IAP:</strong> Used exclusively for secure processing of in-app purchases. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+    </ul>
+    
+    <h2>Data Storage and Security</h2>
+    <p>Your game progress and account information are stored securely on Firebase cloud servers. We implement industry-standard administrative and technical security measures to safeguard your data. However, please note that no method of transmission over the Internet or electronic storage is 100% secure.</p>
+    
+    <h2>Data Retention & Account Deletion</h2>
+    <p>We retain your account data for as long as your account remains active. You have full control over your data and can request complete deletion of your account and all associated personal information at any time. This can be initiated in two ways:</p>
+    <ul>
+        <li><strong>In-App Menu:</strong> Navigate to the App's settings menu and choose the <strong>"Delete Account"</strong> option.</li>
+        <li><strong>Direct Request:</strong> Send an explicit email request to our support team at <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>, and we will purge your data from our systems manually.</li>
+    </ul>
+    
+    <h2>Your Rights</h2>
+    <p>Depending on your jurisdiction, you have the following rights regarding your information:</p>
+    <ul>
+        <li>The right to access the personal data we hold about you.</li>
+        <li>The right to request the correction of inaccurate or incomplete data.</li>
+        <li>The right to request total deletion of your account and data.</li>
+        <li>The right to opt-out of local push notifications at any time.</li>
+        <li>The right to revoke location permissions at any time through your iOS device system settings.</li>
+    </ul>
+    
+    <h2>Children's Privacy</h2>
+    <p>The App features family-friendly content and is suitable for all ages. It is designed for a general audience. We do not knowingly collect personal information from children under the age of 13 without parental consent. If you have reason to believe that a child under 13 has provided personal data to us, please contact us immediately, and we will take swift action to delete such data.</p>
+    
+    <h2>Changes to This Policy</h2>
+    <p>We may update our Privacy Policy from time to time. We will notify you of any modifications by posting the revised document on this webpage and updating the "Last updated" date at the top.</p>
+    
+    <h2>Contact Us</h2>
+    <p>If you have any questions, concerns, or data requests regarding this Privacy Policy, please feel free to reach out to us:</p>
+    <ul>
+        <li>Email: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== РУССКИЙ ===== -->
+<div class="lang-content" data-lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <div class="last-updated">Последнее обновление: 28 сентября 2026</div>
+    <p>Kitty Weather («мы», «наш», «нас») стремится защищать вашу конфиденциальность. Настоящая Политика конфиденциальности объясняет, как мы собираем, используем и защищаем вашу информацию при использовании нашего мобильного приложения («Приложение»).</p>
+    
+    <h2>Какую информацию мы собираем</h2>
+    <h3>Информация, которую вы предоставляете</h3>
+    <ul>
+        <li><strong>Данные аккаунта:</strong> При входе через Google или Apple мы получаем ваш уникальный идентификатор и, опционально, имя и адрес электронной почты (в зависимости от ваших настроек конфиденциальности у провайдера).</li>
+        <li><strong>Игровой прогресс:</strong> Мы храним ваш внутриигровой прогресс, включая уровни котов, приобретённые предметы, достижения и баланс виртуальной валюты.</li>
+    </ul>
+    
+    <h3>Автоматически собираемая информация</h3>
+    <ul>
+        <li><strong>Информация об устройстве:</strong> Мы собираем тип устройства, версию операционной системы и уникальные идентификаторы устройства для аналитики и отчётов о сбоях.</li>
+        <li><strong>Данные об использовании:</strong> Мы отслеживаем паттерны использования приложения, взаимодействие с функциями и длительность сессий для улучшения пользовательского опыта.</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>Примечание об идентификаторах устройства и отслеживании:</strong> Эти идентификаторы и данные об использовании обрабатываются исключительно для внутреннего мониторинга производительности, разработки продукта и стабильности приложения. Мы не используем эти данные для межсайтового отслеживания, а также не передаём и не продаём их каким-либо сторонним рекламным сетям или брокерам данных.
+    </div>
+    
+    <ul>
+        <li><strong>Данные о местоположении (опционально):</strong> При предоставлении разрешения мы используем ваше приблизительное местоположение для отображения местного прогноза погоды. Эти данные обрабатываются локально на вашем устройстве и не передаются и не хранятся на наших серверах.</li>
+    </ul>
+    
+    <h2>Как мы используем вашу информацию</h2>
+    <ul>
+        <li>Для обеспечения и поддержания основной функциональности Приложения (прогнозы погоды, синхронизация игрового прогресса).</li>
+        <li>Для аутентификации вашей личности и синхронизации прогресса между несколькими устройствами.</li>
+        <li>Для анализа производительности приложения, диагностики ошибок и устранения технических проблем.</li>
+        <li>Для отправки локальных уведомлений о потребностях вашего виртуального питомца (только если вы явно включили уведомления).</li>
+    </ul>
+    
+    <h2>Сторонние сервисы</h2>
+    <p>Для обеспечения высокой производительности, стабильности и удобства инфраструктуры мы используем следующие сторонние сервисы. Пожалуйста, ознакомьтесь с их политиками конфиденциальности:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> Используется для безопасной аутентификации пользователей, облачного размещения базы данных и автоматизированных отчётов о сбоях. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Политика конфиденциальности</a></li>
+        <li><strong>Open-Meteo API:</strong> Используется как глобальный поставщик данных о погоде. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Политика конфиденциальности</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> Используется для безопасного геокодирования при получении данных о погоде на основе местоположения. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Политика конфиденциальности</a></li>
+        <li><strong>Unity IAP:</strong> Используется исключительно для безопасной обработки внутриигровых покупок. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Политика конфиденциальности</a></li>
+    </ul>
+    
+    <h2>Хранение и безопасность данных</h2>
+    <p>Ваш игровой прогресс и информация об аккаунте безопасно хранятся на облачных серверах Firebase. Мы применяем отраслевые стандарты административных и технических мер безопасности для защиты ваших данных. Однако обратите внимание, что ни один метод передачи через Интернет или электронного хранения не является на 100% безопасным.</p>
+    
+    <h2>Хранение данных и удаление аккаунта</h2>
+    <p>Мы храним данные вашего аккаунта до тех пор, пока аккаунт остаётся активным. Вы полностью контролируете свои данные и можете в любой момент запросить полное удаление аккаунта и всей связанной личной информации. Это можно сделать двумя способами:</p>
+    <ul>
+        <li><strong>В меню Приложения:</strong> Перейдите в раздел настроек Приложения и выберите опцию <strong>«Удалить аккаунт»</strong>.</li>
+        <li><strong>Прямой запрос:</strong> Отправьте явный запрос по электронной почте нашей службе поддержки на адрес <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>, и мы удалим ваши данные из наших систем вручную.</li>
+    </ul>
+    
+    <h2>Ваши права</h2>
+    <p>В зависимости от вашей юрисдикции, вы имеете следующие права в отношении вашей информации:</p>
+    <ul>
+        <li>Право на доступ к личным данным, которые мы храним о вас.</li>
+        <li>Право на запрос исправления неточных или неполных данных.</li>
+        <li>Право на запрос полного удаления вашего аккаунта и данных.</li>
+        <li>Право отказаться от локальных push-уведомлений в любое время.</li>
+        <li>Право отозвать разрешения на доступ к местоположению в любое время через системные настройки вашего iOS-устройства.</li>
+    </ul>
+    
+    <h2>Конфиденциальность детей</h2>
+    <p>Приложение содержит семейный контент и подходит для всех возрастов. Оно предназначено для широкой аудитории. Мы сознательно не собираем личную информацию детей младше 13 лет без согласия родителей. Если у вас есть основания полагать, что ребёнок младше 13 лет предоставил нам свои личные данные, пожалуйста, немедленно свяжитесь с нами, и мы незамедлительно удалим такие данные.</p>
+    
+    <h2>Изменения в Политике</h2>
+    <p>Мы можем время от времени обновлять нашу Политику конфиденциальности. Мы уведомим вас о любых изменениях, опубликовав пересмотренный документ на этой веб-странице и обновив дату «Последнее обновление» вверху документа.</p>
+    
+    <h2>Связаться с нами</h2>
+    <p>Если у вас есть какие-либо вопросы, замечания или запросы, связанные с настоящей Политикой конфиденциальности, пожалуйста, свяжитесь с нами:</p>
+    <ul>
+        <li>Email: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== FRANÇAIS ===== -->
+<div class="lang-content" data-lang="fr">
+    <h1>Politique de confidentialité</h1>
+    <div class="last-updated">Dernière mise à jour : 28 septembre 2026</div>
+    <p>Kitty Weather (« nous », « notre ») s'engage à protéger votre vie privée. Cette Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre application mobile (l'« Application »).</p>
+    
+    <h2>Informations que nous collectons</h2>
+    <h3>Informations que vous fournissez</h3>
+    <ul>
+        <li><strong>Informations de compte :</strong> Lorsque vous vous connectez via Google ou Apple, nous recevons votre identifiant unique et, éventuellement, votre nom et votre adresse e-mail (selon vos paramètres de confidentialité chez le fournisseur).</li>
+        <li><strong>Progression de jeu :</strong> Nous stockons votre progression en jeu, y compris les niveaux de chats, les objets achetés, les succès et les soldes de monnaie virtuelle.</li>
+    </ul>
+    
+    <h3>Informations collectées automatiquement</h3>
+    <ul>
+        <li><strong>Informations sur l'appareil :</strong> Nous collectons le type d'appareil, la version du système d'exploitation et les identifiants uniques de l'appareil à des fins d'analyse et de rapport de plantages.</li>
+        <li><strong>Données d'utilisation :</strong> Nous suivons les schémas d'utilisation de l'application, les interactions avec les fonctionnalités et la durée des sessions pour améliorer l'expérience utilisateur.</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>Note sur les identifiants d'appareil et le suivi :</strong> Ces identifiants et données d'utilisation sont traités uniquement pour la surveillance interne des performances, le développement du produit et la stabilité de l'application. Nous n'utilisons pas ces données pour le suivi intersites, et nous ne les partageons ni ne les vendons à aucun réseau publicitaire ou courtier de données tiers.
+    </div>
+    
+    <ul>
+        <li><strong>Données de localisation (facultatif) :</strong> Si vous en accordez l'autorisation, nous utilisons votre position approximative pour fournir des prévisions météorologiques locales. Ces données sont traitées localement sur votre appareil et ne sont ni transmises ni stockées sur nos serveurs.</li>
+    </ul>
+    
+    <h2>Comment nous utilisons vos informations</h2>
+    <ul>
+        <li>Pour fournir et maintenir les fonctionnalités principales de l'Application (prévisions météorologiques, synchronisation de la progression de jeu).</li>
+        <li>Pour authentifier votre identité et synchroniser votre progression entre plusieurs appareils.</li>
+        <li>Pour analyser les performances de l'application, diagnostiquer les bugs logiciels et résoudre les problèmes techniques.</li>
+        <li>Pour envoyer des notifications locales concernant les besoins de votre animal virtuel (uniquement si vous activez explicitement les notifications).</li>
+    </ul>
+    
+    <h2>Services tiers</h2>
+    <p>Pour garantir des performances élevées, une stabilité et une infrastructure pratique, nous utilisons les services tiers suivants. Veuillez consulter leurs politiques de confidentialité respectives :</p>
+    <ul>
+        <li><strong>Firebase (Google LLC) :</strong> Utilisé pour l'authentification sécurisée des utilisateurs, l'hébergement de base de données cloud et les rapports automatiques de plantages. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Politique de confidentialité</a></li>
+        <li><strong>Open-Meteo API :</strong> Utilisé comme fournisseur mondial de données météorologiques. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Politique de confidentialité</a></li>
+        <li><strong>Nominatim (OpenStreetMap) :</strong> Utilisé pour le géocodage sécurisé afin de résoudre les données météorologiques basées sur la localisation. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Politique de confidentialité</a></li>
+        <li><strong>Unity IAP :</strong> Utilisé exclusivement pour le traitement sécurisé des achats intégrés. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Politique de confidentialité</a></li>
+    </ul>
+    
+    <h2>Stockage et sécurité des données</h2>
+    <p>Votre progression de jeu et les informations de votre compte sont stockées en toute sécurité sur les serveurs cloud Firebase. Nous mettons en œuvre des mesures de sécurité administratives et techniques conformes aux normes de l'industrie pour protéger vos données. Veuillez toutefois noter qu'aucune méthode de transmission sur Internet ou de stockage électronique n'est sûre à 100 %.</p>
+    
+    <h2>Conservation des données et suppression du compte</h2>
+    <p>Nous conservons les données de votre compte tant que celui-ci reste actif. Vous avez un contrôle total sur vos données et pouvez à tout moment demander la suppression complète de votre compte et de toutes les informations personnelles associées. Cela peut être initié de deux manières :</p>
+    <ul>
+        <li><strong>Menu de l'Application :</strong> Accédez au menu des paramètres de l'Application et choisissez l'option <strong>« Supprimer le compte »</strong>.</li>
+        <li><strong>Demande directe :</strong> Envoyez une demande explicite par e-mail à notre équipe d'assistance à <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>, et nous supprimerons manuellement vos données de nos systèmes.</li>
+    </ul>
+    
+    <h2>Vos droits</h2>
+    <p>Selon votre juridiction, vous disposez des droits suivants concernant vos informations :</p>
+    <ul>
+        <li>Le droit d'accéder aux données personnelles que nous détenons à votre sujet.</li>
+        <li>Le droit de demander la correction de données inexactes ou incomplètes.</li>
+        <li>Le droit de demander la suppression totale de votre compte et de vos données.</li>
+        <li>Le droit de vous désinscrire des notifications push locales à tout moment.</li>
+        <li>Le droit de révoquer les autorisations de localisation à tout moment via les paramètres système de votre appareil iOS.</li>
+    </ul>
+    
+    <h2>Confidentialité des enfants</h2>
+    <p>L'Application propose un contenu adapté à toute la famille et convient à tous les âges. Elle est conçue pour un public général. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 13 ans sans le consentement parental. Si vous avez des raisons de croire qu'un enfant de moins de 13 ans nous a fourni des données personnelles, veuillez nous contacter immédiatement, et nous prendrons rapidement des mesures pour supprimer ces données.</p>
+    
+    <h2>Modifications de cette politique</h2>
+    <p>Nous pouvons mettre à jour notre Politique de confidentialité de temps à autre. Nous vous informerons de toute modification en publiant le document révisé sur cette page Web et en mettant à jour la date « Dernière mise à jour » en haut.</p>
+    
+    <h2>Nous contacter</h2>
+    <p>Si vous avez des questions, préoccupations ou demandes de données concernant cette Politique de confidentialité, n'hésitez pas à nous contacter :</p>
+    <ul>
+        <li>E-mail : <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== ESPAÑOL ===== -->
+<div class="lang-content" data-lang="es">
+    <h1>Política de Privacidad</h1>
+    <div class="last-updated">Última actualización: 28 de septiembre de 2026</div>
+    <p>Kitty Weather ("nosotros" o "nuestro") se compromete a proteger su privacidad. Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos su información cuando utiliza nuestra aplicación móvil (la "Aplicación").</p>
+    
+    <h2>Información que recopilamos</h2>
+    <h3>Información que usted proporciona</h3>
+    <ul>
+        <li><strong>Información de cuenta:</strong> Cuando inicia sesión con Google o Apple, recibimos su identificador único y, opcionalmente, su nombre y dirección de correo electrónico (según su configuración de privacidad en el proveedor).</li>
+        <li><strong>Progreso del juego:</strong> Almacenamos su progreso dentro del juego, incluidos los niveles de gatos, los objetos comprados, los logros y los saldos de moneda virtual.</li>
+    </ul>
+    
+    <h3>Información recopilada automáticamente</h3>
+    <ul>
+        <li><strong>Información del dispositivo:</strong> Recopilamos el tipo de dispositivo, la versión del sistema operativo e identificadores únicos del dispositivo para análisis e informes de fallos.</li>
+        <li><strong>Datos de uso:</strong> Rastreamos los patrones de uso de la aplicación, las interacciones con las funciones y la duración de las sesiones para mejorar la experiencia del usuario.</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>Nota sobre los identificadores de dispositivo y el seguimiento:</strong> Estos identificadores y datos de uso se procesan únicamente para el monitoreo interno del rendimiento, el desarrollo del producto y la estabilidad de la aplicación. No utilizamos estos datos para el seguimiento entre sitios, ni los compartimos ni vendemos a redes publicitarias o intermediarios de datos de terceros.
+    </div>
+    
+    <ul>
+        <li><strong>Datos de ubicación (opcional):</strong> Si otorga permiso, utilizamos su ubicación aproximada para proporcionar pronósticos meteorológicos locales. Estos datos se procesan localmente en su dispositivo y no se transmiten ni almacenan en nuestros servidores.</li>
+    </ul>
+    
+    <h2>Cómo utilizamos su información</h2>
+    <ul>
+        <li>Para proporcionar y mantener la funcionalidad principal de la Aplicación (pronósticos meteorológicos, sincronización del progreso del juego).</li>
+        <li>Para autenticar su identidad y sincronizar el progreso entre varios dispositivos.</li>
+        <li>Para analizar el rendimiento de la aplicación, diagnosticar errores de software y solucionar problemas técnicos.</li>
+        <li>Para enviar notificaciones locales sobre las necesidades de su mascota virtual (solo si habilita explícitamente las notificaciones).</li>
+    </ul>
+    
+    <h2>Servicios de terceros</h2>
+    <p>Para garantizar un alto rendimiento, estabilidad y una infraestructura conveniente, utilizamos los siguientes servicios de terceros. Consulte sus respectivas políticas de privacidad:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> Se utiliza para la autenticación segura de usuarios, el alojamiento de bases de datos en la nube y los informes automáticos de fallos. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Política de Privacidad</a></li>
+        <li><strong>Open-Meteo API:</strong> Se utiliza como nuestro proveedor global de datos meteorológicos. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Política de Privacidad</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> Se utiliza para la geocodificación segura para resolver datos meteorológicos basados en la ubicación. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Política de Privacidad</a></li>
+        <li><strong>Unity IAP:</strong> Se utiliza exclusivamente para el procesamiento seguro de compras dentro de la aplicación. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Política de Privacidad</a></li>
+    </ul>
+    
+    <h2>Almacenamiento y seguridad de datos</h2>
+    <p>Su progreso del juego y la información de la cuenta se almacenan de forma segura en los servidores en la nube de Firebase. Implementamos medidas de seguridad administrativas y técnicas estándar de la industria para proteger sus datos. Sin embargo, tenga en cuenta que ningún método de transmisión a través de Internet o almacenamiento electrónico es 100% seguro.</p>
+    
+    <h2>Retención de datos y eliminación de cuenta</h2>
+    <p>Conservamos los datos de su cuenta mientras esta permanezca activa. Tiene control total sobre sus datos y puede solicitar la eliminación completa de su cuenta y toda la información personal asociada en cualquier momento. Esto se puede iniciar de dos maneras:</p>
+    <ul>
+        <li><strong>Menú de la Aplicación:</strong> Vaya al menú de configuración de la Aplicación y elija la opción <strong>"Eliminar cuenta"</strong>.</li>
+        <li><strong>Solicitud directa:</strong> Envíe una solicitud explícita por correo electrónico a nuestro equipo de soporte en <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>, y eliminaremos sus datos manualmente de nuestros sistemas.</li>
+    </ul>
+    
+    <h2>Sus derechos</h2>
+    <p>Dependiendo de su jurisdicción, tiene los siguientes derechos con respecto a su información:</p>
+    <ul>
+        <li>El derecho a acceder a los datos personales que tenemos sobre usted.</li>
+        <li>El derecho a solicitar la corrección de datos inexactos o incompletos.</li>
+        <li>El derecho a solicitar la eliminación total de su cuenta y datos.</li>
+        <li>El derecho a optar por no recibir notificaciones push locales en cualquier momento.</li>
+        <li>El derecho a revocar los permisos de ubicación en cualquier momento a través de la configuración del sistema de su dispositivo iOS.</li>
+    </ul>
+    
+    <h2>Privacidad de los niños</h2>
+    <p>La Aplicación presenta contenido familiar y es adecuada para todas las edades. Está diseñada para una audiencia general. No recopilamos intencionalmente información personal de niños menores de 13 años sin el consentimiento de los padres. Si tiene motivos para creer que un niño menor de 13 años nos ha proporcionado datos personales, comuníquese con nosotros de inmediato y tomaremos medidas rápidas para eliminar dichos datos.</p>
+    
+    <h2>Cambios en esta política</h2>
+    <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier modificación publicando el documento revisado en esta página web y actualizando la fecha de "Última actualización" en la parte superior.</p>
+    
+    <h2>Contáctenos</h2>
+    <p>Si tiene alguna pregunta, inquietud o solicitud de datos con respecto a esta Política de Privacidad, no dude en comunicarse con nosotros:</p>
+    <ul>
+        <li>Correo electrónico: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== TÜRKÇE ===== -->
+<div class="lang-content" data-lang="tr">
+    <h1>Gizlilik Politikası</h1>
+    <div class="last-updated">Son güncelleme: 28 Eylül 2026</div>
+    <p>Kitty Weather ("biz", "bize" veya "bizim") gizliliğinizi korumayı taahhüt eder. Bu Gizlilik Politikası, mobil uygulamamızı ("Uygulama") kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>
+    
+    <h2>Topladığımız Bilgiler</h2>
+    <h3>Sağladığınız Bilgiler</h3>
+    <ul>
+        <li><strong>Hesap Bilgileri:</strong> Google veya Apple ile giriş yaptığınızda, benzersiz tanımlayıcınızı ve isteğe bağlı olarak adınızı ve e-posta adresinizi alırız (sağlayıcıdaki gizlilik ayarlarınıza bağlı olarak).</li>
+        <li><strong>Oyun İlerlemesi:</strong> Kedi seviyeleri, satın alınan eşyalar, başarılar ve sanal para bakiyeleri dahil olmak üzere oyun içi ilerlemenizi saklarız.</li>
+    </ul>
+    
+    <h3>Otomatik Olarak Toplanan Bilgiler</h3>
+    <ul>
+        <li><strong>Cihaz Bilgileri:</strong> Analitik ve çökme raporlama amacıyla cihaz türünü, işletim sistemi sürümünü ve benzersiz cihaz tanımlayıcılarını toplarız.</li>
+        <li><strong>Kullanım Verileri:</strong> Kullanıcı deneyimini iyileştirmek için uygulama kullanım kalıplarını, özellik etkileşimlerini ve oturum süresini izleriz.</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>Cihaz Tanımlayıcıları ve İzleme Hakkında Not:</strong> Bu tanımlayıcılar ve kullanım verileri yalnızca dahili performans izleme, ürün geliştirme ve uygulama istikrarı için işlenir. Bu verileri siteler arası izleme için kullanmayız ve herhangi bir üçüncü taraf reklam veya veri simsarlığı ağlarıyla paylaşmaz veya satmayız.
+    </div>
+    
+    <ul>
+        <li><strong>Konum Verileri (İsteğe Bağlı):</strong> İzin verirseniz, yerel hava durumu tahminleri sağlamak için yaklaşık konumunuzu kullanırız. Bu veriler cihazınızda yerel olarak işlenir ve sunucularımıza iletilmez veya saklanmaz.</li>
+    </ul>
+    
+    <h2>Bilgilerinizi Nasıl Kullanıyoruz</h2>
+    <ul>
+        <li>Uygulamanın temel işlevlerini sağlamak ve sürdürmek için (hava durumu tahminleri, oyun ilerlemesi senkronizasyonu).</li>
+        <li>Kimliğinizi doğrulamak ve ilerlemeyi birden fazla cihaz arasında senkronize etmek için.</li>
+        <li>Uygulama performansını analiz etmek, yazılım hatalarını teşhis etmek ve teknik sorunları gidermek için.</li>
+        <li>Sanal evcil hayvanınızın ihtiyaçları hakkında yerel bildirimler göndermek için (yalnızca bildirimleri açıkça etkinleştirirseniz).</li>
+    </ul>
+    
+    <h2>Üçüncü Taraf Hizmetleri</h2>
+    <p>Yüksek performans, istikrar ve uygun altyapı sağlamak için aşağıdaki üçüncü taraf hizmetlerinden yararlanıyoruz. Lütfen ilgili gizlilik politikalarını inceleyin:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> Güvenli kullanıcı kimlik doğrulaması, bulut veritabanı barındırma ve otomatik çökme raporlama için kullanılır. <a href="https://firebase.google.com/terms" target="_blank" rel="noopener">Gizlilik Politikası</a></li>
+        <li><strong>Open-Meteo API:</strong> Küresel hava durumu verisi sağlayıcımız olarak kullanılır. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Gizlilik Politikası</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> Konum tabanlı hava durumu verilerini çözmek için güvenli coğrafi kodlama için kullanılır. <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Gizlilik Politikası</a></li>
+        <li><strong>Unity IAP:</strong> Yalnızca uygulama içi satın almaların güvenli işlenmesi için kullanılır. <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Gizlilik Politikası</a></li>
+    </ul>
+    
+    <h2>Veri Depolama ve Güvenlik</h2>
+    <p>Oyun ilerlemeniz ve hesap bilgileriniz Firebase bulut sunucularında güvenli bir şekilde saklanır. Verilerinizi korumak için endüstri standardı idari ve teknik güvenlik önlemleri uygularız. Ancak, İnternet üzerinden iletim veya elektronik depolama yöntemlerinin hiçbirinin %100 güvenli olmadığını lütfen unutmayın.</p>
+    
+    <h2>Veri Saklama ve Hesap Silme</h2>
+    <p>Hesap verilerinizi, hesabınız aktif kaldığı sürece saklarız. Verileriniz üzerinde tam kontrole sahipsinizdir ve istediğiniz zaman hesabınızın ve ilgili tüm kişisel bilgilerin tamamen silinmesini talep edebilirsiniz. Bu iki şekilde başlatılabilir:</p>
+    <ul>
+        <li><strong>Uygulama İçi Menü:</strong> Uygulamanın ayarlar menüsüne gidin ve <strong>"Hesabı Sil"</strong> seçeneğini seçin.</li>
+        <li><strong>Doğrudan Talep:</strong> Destek ekibimize <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> adresine açık bir e-posta talebi gönderin, verilerinizi sistemlerimizden manuel olarak temizelim.</li>
+    </ul>
+    
+    <h2>Haklarınız</h2>
+    <p>Yargı yetkinize bağlı olarak, bilgilerinizle ilgili aşağıdaki haklara sahipsiniz:</p>
+    <ul>
+        <li>Hakkınızda tuttuğumuz kişisel verilere erişme hakkı.</li>
+        <li>Yanlış veya eksik verilerin düzeltilmesini talep etme hakkı.</li>
+        <li>Hesabınızın ve verilerinizin tamamen silinmesini talep etme hakkı.</li>
+        <li>İstediğiniz zaman yerel anlık bildirimlerden vazgeçme hakkı.</li>
+        <li>iOS cihazınızın sistem ayarları aracılığıyla istediğiniz zaman konum izinlerini iptal etme hakkı.</li>
+    </ul>
+    
+    <h2>Çocukların Gizliliği</h2>
+    <p>Uygulama, aile dostu içerik sunar ve her yaş için uygundur. Genel bir kitle için tasarlanmıştır. Ebeveyn izni olmadan 13 yaşın altındaki çocuklardan bilerek kişisel bilgi toplamayız. 13 yaşın altındaki bir çocuğun bize kişisel veri sağladığına inanmak için bir nedeniniz varsa, lütfen hemen bizimle iletişime geçin; bu tür verileri silmek için hızlı işlem yapacağız.</p>
+    
+    <h2>Bu Politikadaki Değişiklikler</h2>
+    <p>Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişiklik olduğunda, gözden geçirilmiş belgeyi bu web sayfasında yayınlayarak ve üstteki "Son güncelleme" tarihini güncelleyerek sizi bilgilendireceğiz.</p>
+    
+    <h2>Bize Ulaşın</h2>
+    <p>Bu Gizlilik Politikası ile ilgili herhangi bir sorunuz, endişeniz veya veri talebiniz varsa, lütfen bizimle iletişime geçmekten çekinmeyin:</p>
+    <ul>
+        <li>E-posta: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== 日本語 ===== -->
+<div class="lang-content" data-lang="ja">
+    <h1>プライバシーポリシー</h1>
+    <div class="last-updated">最終更新日: 2026年9月28日</div>
+    <p>Kitty Weather（以下「私たち」）は、お客様のプライバシーを保護することをお約束します。本プライバシーポリシーは、お客様が私たちのモバイルアプリケーション（以下「アプリ」）をご利用になる際に、私たちがお客様の情報をどのように収集、使用、保護するかを説明するものです。</p>
+    
+    <h2>収集する情報</h2>
+    <h3>お客様が提供する情報</h3>
+    <ul>
+        <li><strong>アカウント情報:</strong> Google または Apple でサインインすると、一意の識別子と、オプションで名前とメールアドレスを受け取ります（プロバイダーでのプライバシー設定によります）。</li>
+        <li><strong>ゲームの進行状況:</strong> ネコのレベル、購入したアイテム、実績、仮想通貨の残高など、ゲーム内の進行状況を保存します。</li>
+    </ul>
+    
+    <h3>自動的に収集される情報</h3>
+    <ul>
+        <li><strong>デバイス情報:</strong> 分析およびクラッシュレポートのために、デバイスタイプ、オペレーティングシステムのバージョン、および一意のデバイス識別子を収集します。</li>
+        <li><strong>使用データ:</strong> ユーザー体験を向上させるために、アプリの使用パターン、機能のインタラクション、セッション時間を追跡します。</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>デバイス識別子とトラッキングに関する注記:</strong> これらの識別子と使用データは、内部のパフォーマンス監視、製品開発、アプリの安定性の目的でのみ処理されます。このデータをクロスサイトトラッキングに使用したり、第三者の広告ネットワークやデータブローカーネットワークと共有または販売したりすることはありません。
+    </div>
+    
+    <ul>
+        <li><strong>位置データ（オプション）:</strong> 許可をいただいた場合、おおよその位置を使用して地域の天気予報を提供します。このデータはお客様のデバイス上でローカルに処理され、私たちのサーバーに送信または保存されることはありません。</li>
+    </ul>
+    
+    <h2>お客様の情報の使用方法</h2>
+    <ul>
+        <li>アプリのコア機能（天気予報、ゲーム進行の同期）を提供および維持するため。</li>
+        <li>お客様の身元を認証し、複数のデバイス間で進行状況を同期するため。</li>
+        <li>アプリのパフォーマンスを分析し、ソフトウェアのバグを診断し、技術的な問題を修正するため。</li>
+        <li>仮想ペットのニーズに関するローカル通知を送信するため（お客様が明示的に通知を有効にした場合のみ）。</li>
+    </ul>
+    
+    <h2>サードパーティサービス</h2>
+    <p>高いパフォーマンス、安定性、便利なインフラストラクチャを確保するために、以下のサードパーティサービスを利用しています。それぞれのプライバシーポリシーをご確認ください:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> 安全なユーザー認証、クラウドデータベースのホスティング、自動クラッシュレポートに使用されます。<a href="https://firebase.google.com/terms" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+        <li><strong>Open-Meteo API:</strong> グローバルな気象データプロバイダーとして使用されます。<a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> 位置ベースの気象データを解決するための安全なジオコーディングに使用されます。<a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+        <li><strong>Unity IAP:</strong> アプリ内購入の安全な処理専用に使用されます。<a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">プライバシーポリシー</a></li>
+    </ul>
+    
+    <h2>データの保存とセキュリティ</h2>
+    <p>お客様のゲームの進行状況とアカウント情報は、Firebase クラウドサーバーに安全に保存されます。お客様のデータを保護するために、業界標準の管理上および技術上のセキュリティ対策を実施しています。ただし、インターネット経由の送信方法または電子的保存方法は100%安全ではないことにご注意ください。</p>
+    
+    <h2>データの保持とアカウントの削除</h2>
+    <p>アカウントがアクティブである限り、お客様のアカウントデータを保持します。お客様は自身のデータを完全に管理でき、いつでもアカウントおよび関連するすべての個人情報の完全な削除を要求できます。これは次の2つの方法で開始できます:</p>
+    <ul>
+        <li><strong>アプリ内メニュー:</strong> アプリの設定メニューに移動し、<strong>「アカウントを削除」</strong>オプションを選択します。</li>
+        <li><strong>直接のリクエスト:</strong> サポートチームに <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a> まで明示的な電子メールリクエストを送信してください。お客様のデータを手動でシステムから削除します。</li>
+    </ul>
+    
+    <h2>お客様の権利</h2>
+    <p>お住まいの管轄区域によっては、お客様の情報に関して次の権利を有します:</p>
+    <ul>
+        <li>私たちが保有するお客様の個人情報にアクセスする権利。</li>
+        <li>不正確または不完全なデータの修正を要求する権利。</li>
+        <li>アカウントとデータの完全な削除を要求する権利。</li>
+        <li>いつでもローカルプッシュ通知をオプトアウトする権利。</li>
+        <li>iOS デバイスのシステム設定を通じて、いつでも位置情報の許可を取り消す権利。</li>
+    </ul>
+    
+    <h2>子供のプライバシー</h2>
+    <p>本アプリはファミリー向けのコンテンツを特徴とし、すべての年齢層に適しています。一般的な視聴者を対象としています。私たちは、親の同意なしに13歳未満の子供から意図的に個人情報を収集することはありません。13歳未満の子供が私たちに個人データを提供したと信じる理由がある場合は、すぐにご連絡ください。そのようなデータを削除するために迅速に対応します。</p>
+    
+    <h2>本ポリシーの変更</h2>
+    <p>当社のプライバシーポリシーは随時更新されることがあります。変更がある場合は、このウェブページに改訂版の文書を掲載し、上部の「最終更新日」を更新することでお知らせします。</p>
+    
+    <h2>お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問、懸念事項、またはデータリクエストがございましたら、お気軽にお問い合わせください:</p>
+    <ul>
+        <li>メール: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+<!-- ===== 中文 ===== -->
+<div class="lang-content" data-lang="zh">
+    <h1>隐私政策</h1>
+    <div class="last-updated">最后更新: 2026年9月28日</div>
+    <p>Kitty Weather(以下简称"我们")致力于保护您的隐私。本隐私政策说明当您使用我们的移动应用程序("应用程序")时,我们如何收集、使用和保护您的信息。</p>
+    
+    <h2>我们收集的信息</h2>
+    <h3>您提供的信息</h3>
+    <ul>
+        <li><strong>账户信息:</strong> 当您使用 Google 或 Apple 登录时,我们会收到您的唯一标识符,以及可选的姓名和电子邮件地址(取决于您在提供商处的隐私设置)。</li>
+        <li><strong>游戏进度:</strong> 我们存储您的游戏内进度,包括猫咪等级、购买的物品、成就和虚拟货币余额。</li>
+    </ul>
+    
+    <h3>自动收集的信息</h3>
+    <ul>
+        <li><strong>设备信息:</strong> 我们收集设备类型、操作系统版本和唯一设备标识符,用于分析和崩溃报告。</li>
+        <li><strong>使用数据:</strong> 我们跟踪应用程序的使用模式、功能交互和会话时长,以改善用户体验。</li>
+    </ul>
+    
+    <div class="highlight-box">
+        <strong>关于设备标识符和跟踪的说明:</strong> 这些标识符和使用数据仅用于内部性能监控、产品开发和应用稳定性。我们不将这些数据用于跨网站跟踪,也不会将其分享或出售给任何第三方广告或数据经纪网络。
+    </div>
+    
+    <ul>
+        <li><strong>位置数据(可选):</strong> 如果您授予权限,我们会使用您的大致位置提供当地天气预报。这些数据在您的设备上本地处理,不会传输或存储在我们的服务器上。</li>
+    </ul>
+    
+    <h2>我们如何使用您的信息</h2>
+    <ul>
+        <li>提供和维护应用程序的核心功能(天气预报、游戏进度同步)。</li>
+        <li>验证您的身份并在多个设备间同步进度。</li>
+        <li>分析应用程序性能、诊断软件错误并修复技术问题。</li>
+        <li>发送有关您虚拟宠物需求的本地通知(仅当您明确启用通知时)。</li>
+    </ul>
+    
+    <h2>第三方服务</h2>
+    <p>为确保高性能、稳定性和便捷的基础设施,我们使用以下第三方服务。请查阅它们各自的隐私政策:</p>
+    <ul>
+        <li><strong>Firebase (Google LLC):</strong> 用于安全的用户身份验证、云数据库托管和自动崩溃报告。<a href="https://firebase.google.com/terms" target="_blank" rel="noopener">隐私政策</a></li>
+        <li><strong>Open-Meteo API:</strong> 用作我们的全球天气数据提供商。<a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">隐私政策</a></li>
+        <li><strong>Nominatim (OpenStreetMap):</strong> 用于安全的地理编码以解析基于位置的天气数据。<a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">隐私政策</a></li>
+        <li><strong>Unity IAP:</strong> 专门用于安全处理应用内购买。<a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">隐私政策</a></li>
+    </ul>
+    
+    <h2>数据存储和安全</h2>
+    <p>您的游戏进度和账户信息安全地存储在 Firebase 云服务器上。我们实施行业标准的管理和技术安全措施来保护您的数据。但是请注意,互联网传输或电子存储方法都不是100%安全的。</p>
+    
+    <h2>数据保留和账户删除</h2>
+    <p>只要您的账户保持活跃状态,我们就会保留您的账户数据。您对自己的数据拥有完全控制权,可以随时请求完全删除您的账户和所有相关个人信息。这可以通过以下两种方式启动:</p>
+    <ul>
+        <li><strong>应用内菜单:</strong> 导航到应用程序的设置菜单,选择<strong>"删除账户"</strong>选项。</li>
+        <li><strong>直接请求:</strong> 向我们的支持团队发送明确的电子邮件请求至 <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a>,我们将手动从系统中清除您的数据。</li>
+    </ul>
+    
+    <h2>您的权利</h2>
+    <p>根据您的司法管辖区,您对您的信息拥有以下权利:</p>
+    <ul>
+        <li>访问我们持有的关于您的个人数据的权利。</li>
+        <li>请求更正不准确或不完整数据的权利。</li>
+        <li>请求完全删除您的账户和数据的权利。</li>
+        <li>随时选择退出本地推送通知的权利。</li>
+        <li>随时通过 iOS 设备的系统设置撤销位置权限的权利。</li>
+    </ul>
+    
+    <h2>儿童隐私</h2>
+    <p>本应用程序提供家庭友好的内容,适合所有年龄段。它面向普通受众设计。我们不会在未经父母同意的情况下故意收集13岁以下儿童的个人信息。如果您有理由相信13岁以下的儿童向我们提供了个人数据,请立即与我们联系,我们将迅速采取行动删除此类数据。</p>
+    
+    <h2>本政策的变更</h2>
+    <p>我们可能会不时更新我们的隐私政策。我们将通过在此网页上发布修订后的文档并更新顶部的"最后更新"日期来通知您任何修改。</p>
+    
+    <h2>联系我们</h2>
+    <p>如果您对本隐私政策有任何疑问、关切或数据请求,请随时与我们联系:</p>
+    <ul>
+        <li>电子邮件: <a href="mailto:black4x.dev@gmail.com">black4x.dev@gmail.com</a></li>
+    </ul>
+</div>
+
+    <!-- JavaScript для переключения языков -->
+    <script>
+        // Автоопределение языка браузера
+        function detectLanguage() {
+            const browserLang = navigator.language || navigator.userLanguage;
+            const langCode = browserLang.split('-')[0];
+            
+            // Маппинг языков
+            const supportedLangs = ['en', 'ru', 'fr', 'es', 'tr', 'ja', 'zh'];
+            return supportedLangs.includes(langCode) ? langCode : 'en';
+        }
+        
+        // Переключение языка
+        function switchLanguage(lang) {
+            // Скрываем все контенты
+            document.querySelectorAll('.lang-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Убираем active со всех кнопок
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Показываем выбранный контент
+            const content = document.querySelector(`.lang-content[data-lang="${lang}"]`);
+            if (content) {
+                content.classList.add('active');
+            }
+            
+            // Активируем кнопку
+            const button = document.querySelector(`.lang-btn[data-lang="${lang}"]`);
+            if (button) {
+                button.classList.add('active');
+            }
+            
+            // Сохраняем выбор
+            localStorage.setItem('preferredLang', lang);
+            
+            // Обновляем title
+            const titles = {
+                en: 'Privacy Policy - Kitty Weather',
+                ru: 'Политика конфиденциальности — Kitty Weather',
+                fr: 'Politique de confidentialité - Kitty Weather',
+                es: 'Política de Privacidad - Kitty Weather',
+                tr: 'Gizlilik Politikası - Kitty Weather',
+                ja: 'プライバシーポリシー - Kitty Weather',
+                zh: '隐私政策 - Kitty Weather'
+            };
+            document.title = titles[lang] || titles.en;
+        }
+        
+        // Инициализация
+        document.addEventListener('DOMContentLoaded', function() {
+            // Проверяем localStorage
+            const savedLang = localStorage.getItem('preferredLang');
+            const initialLang = savedLang || detectLanguage();
+            
+            switchLanguage(initialLang);
+            
+            // Добавляем обработчики кнопок
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    switchLanguage(this.dataset.lang);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
