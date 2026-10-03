@@ -1,5 +1,5 @@
 {
-  "version": "3.1.7",
+  "version": "3.1.8",
   "startingBalance": {
     "coins": 600,
     "gems": 40
@@ -93,15 +93,18 @@
     "defaultGemsToCoinsRate": 10
   },
   "ads": {
-	  "gemsReward": 0,
-	  "coinsReward": 40,
-	  "maxPerDay": 10,
-	  "cooldownSeconds": 180,
-	  "rewardTiers": [
-		{ "views": 4, "multiplier": 1.0 },
-		{ "views": 8, "multiplier": 0.6 },
-		{ "views": 10, "multiplier": 0.2 }
-	  ]
+    "gemsReward": 0,
+    "coinsReward": 40,
+    "maxPerDay": 10,
+    "cooldownSeconds": 180,
+    "enabled": true,
+    "antifraudEnabled": false,
+    "minWatchSeconds": 10,
+    "rewardTiers": [
+        { "views": 4, "multiplier": 1.0 },
+        { "views": 8, "multiplier": 0.6 },
+        { "views": 10, "multiplier": 0.2 }
+    ]
   },
   "interactions": {
 	"maxCoinsPerDay": 50,
