@@ -1,5 +1,5 @@
 {
-  "version": "3.1.7",
+  "version": "3.1.8",
   "saleConfig": {
     "enabled": false,
     "discountPercent": 20,
@@ -9,19 +9,19 @@
     "excludedItems": []
   },
   "releaseConfig": {
-    "globalStartDate": "2026-09-30T00:00:00Z",
+    "globalStartDate": "2026-10-05T00:00:00Z",
     "waveDurationDays": 7,
     "newBadgeDays": 5,
 	"upcomingPreviewDays": 7,
     
     "storeOverrides": {
       "appstore": {
-        "globalStartDate": "2026-10-01T00:00:00Z",
+        "globalStartDate": "2026-10-12T00:00:00Z",
         "waveDurationDays": 7,
         "newBadgeDays": 7
       },
       "googleplay": {
-        "globalStartDate": "2026-11-01T00:00:00Z"
+        "globalStartDate": "2026-11-12T00:00:00Z"
       }
     }
   },
