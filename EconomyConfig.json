@@ -1,5 +1,5 @@
 {
-  "version": "3.1.8",
+  "version": "3.2.0",
   "startingBalance": {
     "coins": 600,
     "gems": 40
@@ -37,13 +37,13 @@
   "decorSlots": [
     { "slotId": "windowsill_1", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Подоконник слева" },
     { "slotId": "windowsill_2", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Подоконник справа" },
-    { "slotId": "shelves_1", "unlockLevel": 2, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Средняя полка" },
-    { "slotId": "shelves_2", "unlockLevel": 5, "unlockPrice": 150, "unlockCurrency": "Coins", "description": "Верхняя полка" },
-    { "slotId": "fireplace_clock", "unlockLevel": 8, "unlockPrice": 10, "unlockCurrency": "Gems", "description": "Над камином" },
-	{ "slotId": "fireplace_shelve", "unlockLevel": 10, "unlockPrice": 300, "unlockCurrency": "Coins", "description": "Каминная полка" },
-	{ "slotId": "floor_left", "unlockLevel": 12, "unlockPrice": 8, "unlockCurrency": "Gems", "description": "У камина слева" },
-	{ "slotId": "floor_right", "unlockLevel": 14, "unlockPrice": 600, "unlockCurrency": "Coins", "description": "У камина справа" },
-    { "slotId": "window_curtain_1", "unlockLevel": 15, "unlockPrice": 15, "unlockCurrency": "Gems", "description": "Шторы" }
+    { "slotId": "shelves_1", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Средняя полка" },
+    { "slotId": "shelves_2", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Верхняя полка" },
+    { "slotId": "fireplace_clock", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Над камином" },
+	{ "slotId": "fireplace_shelve", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Каминная полка" },
+	{ "slotId": "floor_left", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "У камина слева" },
+	{ "slotId": "floor_right", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "У камина справа" },
+    { "slotId": "window_curtain_1", "unlockLevel": 1, "unlockPrice": 0, "unlockCurrency": "Coins", "description": "Шторы" }
   ],
   "catNeeds": {
     "hunger": {
