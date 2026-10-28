@@ -96,7 +96,7 @@
     "gemsReward": 0,
     "coinsReward": 40,
     "maxPerDay": 10,
-    "cooldownSeconds": 180,
+    "cooldownSeconds": 60,
     "enabled": true,
     "antifraudEnabled": false,
     "minWatchSeconds": 10,
