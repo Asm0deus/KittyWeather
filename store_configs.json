@@ -1,8 +1,10 @@
 {
   "stores": [
     {
-      "version": "1.0.4",
+      "version": "1.0.8",
       "storeId": "rustore",
+	  "minSupportedVersion": "1.0.6",
+	  "updateUrl": "https://www.rustore.ru/catalog/app/com.Bfox.KittyWeather",
       "region": "RU",
       "currency": "RUB",
       "iapPackages": [
@@ -37,6 +39,8 @@
     },
     {
       "storeId": "googleplay",
+	  "minSupportedVersion": "1.0.0",
+	  "updateUrl": "https://play.google.com/store/apps/details?id=com.Bfox.KittyWeather",
       "region": "US",
       "currency": "USD",
       "iapPackages": [
