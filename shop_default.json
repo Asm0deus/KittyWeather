@@ -1,5 +1,5 @@
 {
-  "version": "3.2.0",
+  "version": "3.3.0",
   "saleConfig": {
     "enabled": false,
     "discountPercent": 20,
@@ -16,12 +16,16 @@
     
     "storeOverrides": {
       "appstore": {
-        "globalStartDate": "2026-10-16T00:00:00Z",
-        "waveDurationDays": 7,
-        "newBadgeDays": 7
+        "globalStartDate": "2026-11-05T00:00:00Z",
+        "waveDurationDays": 5,
+        "newBadgeDays": 5,
+		"upcomingPreviewDays": 5,
       },
       "googleplay": {
-        "globalStartDate": "2026-11-16T00:00:00Z"
+        "globalStartDate": "2026-11-05T00:00:00Z",
+        "waveDurationDays": 5,
+        "newBadgeDays": 5,
+		"upcomingPreviewDays": 5,
       }
     }
   },
@@ -270,6 +274,13 @@
 	{ "id": "decor_candle004", "wave": 7, "category": "decor", "subcategory": "fireplace", "allowedSlots": ["windowsill", "fireplace"], "iconSpriteName": "decor_candle004", "slotType": null, "roomScale": 1, "price": 60, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "common" },
 	{ "id": "decor_curtain001", "wave": 1, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain001", "slotType": null, "roomScale": 1, "price": 700, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },
 	{ "id": "decor_curtain002", "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain002", "slotType": null, "roomScale": 1, "price": 650, "oldPrice": 0, "currencyType": "Coins", "isLimited": true, "rarity": "rare","tags": ["halloween"], "availableFrom": "2026-10-20T00:00:00Z", "availableUntil": "2026-11-03T23:59:59Z" },
+	{ "id": "decor_curtain003", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain003", "slotType": null, "roomScale": 1, "price": 70, "oldPrice": 0, "currencyType": "Gems", "isLimited": false, "rarity": "epic" },
+	{ "id": "decor_curtain004", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain004", "slotType": null, "roomScale": 1, "price": 700, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },
+	{ "id": "decor_curtain005", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain005", "slotType": null, "roomScale": 1, "price": 710, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },
+	{ "id": "decor_curtain006", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain006", "slotType": null, "roomScale": 1, "price": 75, "oldPrice": 0, "currencyType": "Gems", "isLimited": false, "rarity": "epic" },
+	{ "id": "decor_curtain007", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain007", "slotType": null, "roomScale": 1, "price": 700, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },
+	{ "id": "decor_curtain008", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain008", "slotType": null, "roomScale": 1, "price": 60, "oldPrice": 0, "currencyType": "Gems", "isLimited": false, "rarity": "epic" },
+	{ "id": "decor_curtain009", "wave": 6, "category": "decor", "subcategory": "window", "iconSpriteName": "decor_curtain009", "slotType": null, "roomScale": 1, "price": 750, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },
 	{ "id": "decor_pain001", "wave": 1, "category": "decor", "subcategory": "fireplace", "allowedSlots": ["windowsill", "fireplace"], "iconSpriteName": "decor_pain001", "slotType": null, "roomScale": 1, "price": 120, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "common" },
 	{ "id": "decor_pain002", "wave": 2, "category": "decor", "subcategory": "fireplace", "allowedSlots": ["windowsill", "fireplace"], "iconSpriteName": "decor_pain002", "slotType": null, "roomScale": 1, "price": 180, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "common" },
 	{ "id": "decor_pain003", "wave": 3, "category": "decor", "subcategory": "fireplace_top", "iconSpriteName": "decor_pain003", "slotType": null, "roomScale": 1, "price": 250, "oldPrice": 0, "currencyType": "Coins", "isLimited": false, "rarity": "rare" },

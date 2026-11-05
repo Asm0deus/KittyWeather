@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.1.3",
+  "version": "3.1.4",
   "definitions": [
     {"id": "first_steps", "iconName": "001", "category": "general", "isHidden": false, "conditionType": "first_login", "targetValue": 1, "rewardCoins": 50, "rewardGems": 2, "prerequisites": []},
     {"id": "windowsill_monarch", "iconName": "002", "category": "general", "isHidden": false, "conditionType": "time_in_app_hours", "targetValue": 10, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
@@ -22,8 +22,8 @@
     {"id": "tail_designer", "iconName": "009", "category": "room", "isHidden": false, "conditionType": "wear_accessory", "targetValue": 1, "rewardCoins": 50, "rewardGems": 0, "prerequisites": []},
     {"id": "spring_cleaning", "iconName": "010", "category": "room", "isHidden": true, "conditionType": "time_in_room_minutes", "targetValue": 10, "rewardCoins": 80, "rewardGems": 0, "prerequisites": []},
     {"id": "full_bowl", "iconName": "011", "category": "room", "isHidden": false, "conditionType": "daily_room_visits", "targetValue": 5, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
-    {"id": "cat_palace", "iconName": "012", "category": "room", "isHidden": false, "conditionType": "unlock_all_slots", "targetValue": 1, "rewardCoins": 300, "rewardGems": 25, "prerequisites": []},
-    {"id": "golden_claw", "iconName": "025", "category": "room", "isHidden": false, "conditionType": "buy_most_expensive", "targetValue": 1, "rewardCoins": 200, "rewardGems": 15, "prerequisites": []},
+    {"id": "cat_palace", "iconName": "012", "category": "room", "isHidden": true, "conditionType": "unlock_all_slots", "targetValue": 1, "rewardCoins": 300, "rewardGems": 25, "prerequisites": []},
+    {"id": "golden_claw", "iconName": "025", "category": "room", "isHidden": true, "conditionType": "buy_most_expensive", "targetValue": 1, "rewardCoins": 200, "rewardGems": 15, "prerequisites": []},
     {"id": "cozy_minimalist", "iconName": "026", "category": "room", "isHidden": true, "conditionType": "one_rare_item_only", "targetValue": 1, "rewardCoins": 150, "rewardGems": 10, "prerequisites": []},
 
     {"id": "bite_forecast", "iconName": "027", "category": "character", "isHidden": true, "conditionType": "share_screenshot", "targetValue": 1, "rewardCoins": 50, "rewardGems": 3, "prerequisites": []},
@@ -48,15 +48,15 @@
     {"id": "winter_hibernation", "iconName": "044", "category": "extreme", "isHidden": true, "conditionType": "login_winter_solstice", "targetValue": 1, "rewardCoins": 250, "rewardGems": 20, "prerequisites": []},
     {"id": "riding_cyclone", "iconName": "043", "category": "extreme", "isHidden": true, "conditionType": "check_pressure_drop_fast", "targetValue": 1, "rewardCoins": 150, "rewardGems": 12, "prerequisites": ["almost_levitation"]},
 
-    {"id": "happy_tail", "iconName": "042", "category": "home", "isHidden": false, "conditionType": "cat_happiness_100", "targetValue": 1, "rewardCoins": 150, "rewardGems": 12, "prerequisites": []},
+    {"id": "happy_tail", "iconName": "042", "category": "home", "isHidden": true, "conditionType": "cat_happiness_100", "targetValue": 1, "rewardCoins": 150, "rewardGems": 12, "prerequisites": []},
     {"id": "cat_shopping_addict", "iconName": "041", "category": "home", "isHidden": false, "conditionType": "buy_items_one_day", "targetValue": 3, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
-    {"id": "box_master", "iconName": "056", "category": "home", "isHidden": false, "conditionType": "buy_item_with_tag", "targetValue": 1, "rewardCoins": 80, "rewardGems": 3, "conditionValue": "cardboard_box", "prerequisites": []},
+    {"id": "box_master", "iconName": "056", "category": "home", "isHidden": true, "conditionType": "buy_item_with_tag", "targetValue": 1, "rewardCoins": 80, "rewardGems": 3, "conditionValue": "cardboard_box", "prerequisites": []},
     {"id": "chaos_aesthetics", "iconName": "055", "category": "home", "isHidden": true, "conditionType": "scatter_toys", "targetValue": 10, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
     {"id": "nobleman", "iconName": "054", "category": "home", "isHidden": false, "conditionType": "wear_item_with_any_tag", "targetValue": 1, "rewardCoins": 100, "rewardGems": 8, "conditionValue": ["helmet", "bowtie"], "prerequisites": ["tail_designer"]},
     {"id": "cat_gallery", "iconName": "053", "category": "home", "isHidden": true, "conditionType": "take_room_screenshots", "targetValue": 5, "rewardCoins": 120, "rewardGems": 8, "prerequisites": []},
     {"id": "mint_keeper", "iconName": "052", "category": "home", "isHidden": false, "conditionType": "use_item_with_tag", "targetValue": 1, "rewardCoins": 80, "rewardGems": 3, "conditionValue": "catnip", "prerequisites": []},
     {"id": "almost_tiger", "iconName": "051", "category": "home", "isHidden": false, "conditionType": "buy_item_with_tag", "targetValue": 1, "rewardCoins": 120, "rewardGems": 8, "conditionValue": "fox_ears", "prerequisites": []},
-    {"id": "secret_shelter", "iconName": "050", "category": "home", "isHidden": false, "conditionType": "place_item_with_tag", "targetValue": 1, "rewardCoins": 100, "rewardGems": 8, "conditionValue": "castle", "prerequisites": []},
+    {"id": "secret_shelter", "iconName": "050", "category": "home", "isHidden": true, "conditionType": "place_item_with_tag", "targetValue": 1, "rewardCoins": 100, "rewardGems": 8, "conditionValue": "castle", "prerequisites": []},
     {"id": "champion_breakfast", "iconName": "049", "category": "home", "isHidden": false, "conditionType": "buy_premium_food", "targetValue": 1, "rewardCoins": 100, "rewardGems": 8, "prerequisites": []},
 
     {"id": "scheduled_tygydyk", "iconName": "048", "category": "social", "isHidden": true, "conditionType": "daily_login_same_time", "targetValue": 7, "rewardCoins": 200, "rewardGems": 15, "prerequisites": []},
