@@ -1,5 +1,5 @@
 {
-  "version": "3.2.1",
+  "version": "3.3.0",
   "startingBalance": {
     "coins": 600,
     "gems": 40
@@ -136,7 +136,15 @@
 	  { "id": "play_8", "actionType": "play", "target": 8, "rewardCoins": 120, "rewardGems": 0, "descriptionKey": "quest_play_8" },
 	  { "id": "rest_2", "actionType": "rest", "target": 2, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_rest_2" },
 	  { "id": "rest_4", "actionType": "rest", "target": 4, "rewardCoins": 70, "rewardGems": 0, "descriptionKey": "quest_rest_4" },
-	  { "id": "rest_6", "actionType": "rest", "target": 6, "rewardCoins": 100, "rewardGems": 0, "descriptionKey": "quest_rest_6" }
+	  { "id": "rest_6", "actionType": "rest", "target": 6, "rewardCoins": 100, "rewardGems": 0, "descriptionKey": "quest_rest_6" },
+	  { "id": "wear_1", "actionType": "wear", "target": 1,  "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_wear_1" },
+	  { "id": "decor_1", "actionType": "decor_place", "target": 1, "rewardCoins": 50, "rewardGems": 0, "descriptionKey": "quest_decor_1" },
+	  { "id": "buy_1", "actionType": "shop_buy", "target": 1, "rewardCoins": 60, "rewardGems": 0, "descriptionKey": "quest_buy_1" },
+	  { "id": "ad_2", "actionType": "ad_watch", "target": 2, "rewardCoins": 60, "rewardGems": 0, "descriptionKey": "quest_ad_2" },
+	  { "id": "forecast_1", "actionType": "forecast_open", "target": 1, "rewardCoins": 30, "rewardGems": 0, "descriptionKey": "quest_forecast_1" },
+	  { "id": "city_1", "actionType": "city_change", "target": 1, "rewardCoins": 40, "rewardGems": 0, "descriptionKey": "quest_city_1" },
+	  { "id": "feed_premium_1", "actionType": "feed_premium", "target": 1, "rewardCoins": 55, "rewardGems": 0, "descriptionKey": "quest_feed_premium_1" },
+	  { "id": "coins_30", "actionType": "coins_action", "target": 30, "rewardCoins": 70, "rewardGems": 0, "descriptionKey": "quest_coins_30" }
 	],
 	"loginStreak": [
 	  { "day": 1, "coins": 50, "gems": 0 },
